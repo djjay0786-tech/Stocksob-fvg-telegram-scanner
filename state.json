@@ -152651,5 +152651,274 @@
   "OBTAP|WEWIN.NS|3 Month|2023-06-30 00:00:00+05:30|37.0000|49.4000": {
     "last_tap_ts": "2026-09-14T03:53:18.309937+00:00",
     "inside": true
+  },
+  "OBTAP|3PLAND.NS|1 Month|2016-09-30 00:00:00+05:30|9.3000|10.7000": {
+    "inside": false
+  },
+  "OBTAP|3PLAND.NS|3 Month|2016-09-30 00:00:00+05:30|9.3000|10.7000": {
+    "inside": false
+  },
+  "OBTAP|ABAN.NS|1 Month|2016-09-30 00:00:00+05:30|189.3500|215.4000": {
+    "inside": false
+  },
+  "OBTAP|ABAN.NS|3 Month|2016-09-30 00:00:00+05:30|189.3500|215.4000": {
+    "inside": false
+  },
+  "OBTAP|ABFRL.NS|1 Month|2016-09-30 00:00:00+05:30|134.5490|147.6590": {
+    "inside": false
+  },
+  "OBTAP|ADANIPOWER.NS|3 Month|2016-09-30 00:00:00+05:30|4.9200|5.6400": {
+    "inside": false
+  },
+  "OBTAP|ADFFOODS.NS|1 Month|2016-09-30 00:00:00+05:30|23.4200|27.7800": {
+    "inside": false
+  },
+  "OBTAP|ADFFOODS.NS|3 Month|2016-09-30 00:00:00+05:30|23.4200|27.7800": {
+    "inside": false
+  },
+  "OBTAP|ADOR.NS|1 Month|2016-09-30 00:00:00+05:30|258.0000|289.9500": {
+    "inside": false
+  },
+  "OBTAP|ADOR.NS|3 Month|2016-09-30 00:00:00+05:30|258.0000|289.9500": {
+    "inside": false
+  },
+  "OBTAP|AKSHOPTFBR.NS|1 Month|2016-09-30 00:00:00+05:30|18.0500|24.3500": {
+    "inside": false
+  },
+  "OBTAP|AMRUTANJAN.NS|1 Month|2016-09-30 00:00:00+05:30|211.2750|234.0000": {
+    "inside": false
+  },
+  "OBTAP|AMRUTANJAN.NS|3 Month|2016-09-30 00:00:00+05:30|211.2750|234.0000": {
+    "inside": false
+  },
+  "OBTAP|ANKITMETAL.NS|1 Month|2016-09-30 00:00:00+05:30|1.5500|1.8500": {
+    "last_tap_ts": "2026-09-14T04:03:52.972720+00:00",
+    "inside": true
+  },
+  "OBTAP|ANTELOPUS.NS|1 Month|2016-09-30 00:00:00+05:30|174.9000|194.0000": {
+    "inside": false
+  },
+  "OBTAP|APTECHT.NS|1 Month|2016-09-30 00:00:00+05:30|111.2143|129.0714": {
+    "inside": false
+  },
+  "OBTAP|ARIHANT.NS|1 Month|2016-09-30 00:00:00+05:30|40.5000|48.9000": {
+    "inside": false
+  },
+  "OBTAP|ARIHANT.NS|3 Month|2016-09-30 00:00:00+05:30|40.5000|48.9000": {
+    "inside": false
+  },
+  "OBTAP|BALMLAWRIE.NS|1 Month|2016-09-30 00:00:00+05:30|108.4417|119.9750": {
+    "inside": false
+  },
+  "OBTAP|BALMLAWRIE.NS|3 Month|2016-09-30 00:00:00+05:30|108.4417|119.9750": {
+    "inside": false
+  },
+  "OBTAP|BBOX.NS|3 Month|2016-09-30 00:00:00+05:30|14.4200|17.3800": {
+    "inside": false
+  },
+  "OBTAP|BIRLAMONEY.NS|1 Month|2016-09-30 00:00:00+05:30|22.2000|27.8500": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2016-09-30 00:00:00+05:30|82.9500|91.0000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|3 Month|2016-09-30 00:00:00+05:30|82.9500|91.0000": {
+    "inside": false
+  },
+  "OBTAP|CANFINHOME.NS|1 Month|2016-09-30 00:00:00+05:30|320.0000|340.0000": {
+    "inside": false
+  },
+  "OBTAP|CHAMBLFERT.NS|1 Month|2016-09-30 00:00:00+05:30|57.2000|62.8000": {
+    "inside": false
+  },
+  "OBTAP|CHAMBLFERT.NS|3 Month|2016-09-30 00:00:00+05:30|57.2000|62.8000": {
+    "inside": false
+  },
+  "OBTAP|CONTROLPR.NS|1 Month|2016-09-30 00:00:00+05:30|260.0500|288.0000": {
+    "inside": false
+  },
+  "OBTAP|CORDSCABLE.NS|1 Month|2016-09-30 00:00:00+05:30|47.7000|57.3000": {
+    "inside": false
+  },
+  "OBTAP|CORDSCABLE.NS|3 Month|2016-09-30 00:00:00+05:30|47.7000|57.3000": {
+    "inside": false
+  },
+  "OBTAP|CROMPTON.NS|1 Month|2016-09-30 00:00:00+05:30|135.2500|165.5000": {
+    "inside": false
+  },
+  "OBTAP|CUB.NS|1 Month|2016-09-30 00:00:00+05:30|79.4628|84.1736": {
+    "inside": false
+  },
+  "OBTAP|CYIENT.NS|3 Month|2016-09-30 00:00:00+05:30|454.8500|495.0000": {
+    "inside": false
+  },
+  "OBTAP|DALMIASUG.NS|3 Month|2016-09-30 00:00:00+05:30|103.1000|129.0000": {
+    "inside": false
+  },
+  "OBTAP|DIGJAMLMTD.NS|1 Month|2016-09-30 00:00:00+05:30|273.2733|342.3423": {
+    "inside": false
+  },
+  "OBTAP|DIGJAMLMTD.NS|3 Month|2016-09-30 00:00:00+05:30|273.2733|342.3423": {
+    "inside": false
+  },
+  "OBTAP|EASTSILK.NS|1 Month|2016-09-30 00:00:00+05:30|2.0500|2.6000": {
+    "inside": false
+  },
+  "OBTAP|EKC.NS|1 Month|2016-09-30 00:00:00+05:30|24.0000|32.2500": {
+    "inside": false
+  },
+  "OBTAP|EKC.NS|3 Month|2016-09-30 00:00:00+05:30|24.0000|32.2500": {
+    "inside": false
+  },
+  "OBTAP|EMAMIREAL.NS|1 Month|2016-09-30 00:00:00+05:30|56.2000|66.1500": {
+    "inside": false
+  },
+  "OBTAP|FIEMIND.NS|1 Month|2016-09-30 00:00:00+05:30|514.5000|577.5000": {
+    "inside": false
+  },
+  "OBTAP|FILATEX.NS|1 Month|2016-09-30 00:00:00+05:30|6.6000|7.7100": {
+    "inside": false
+  },
+  "OBTAP|FMNL.NS|1 Month|2016-09-30 00:00:00+05:30|25.5000|32.7500": {
+    "inside": false
+  },
+  "OBTAP|FMNL.NS|3 Month|2016-09-30 00:00:00+05:30|25.5000|32.7500": {
+    "inside": false
+  },
+  "OBTAP|GENESYS.NS|1 Month|2016-09-30 00:00:00+05:30|67.0000|74.1000": {
+    "inside": false
+  },
+  "OBTAP|GENESYS.NS|3 Month|2016-09-30 00:00:00+05:30|67.0000|74.1000": {
+    "inside": false
+  },
+  "OBTAP|GIPCL.NS|1 Month|2016-09-30 00:00:00+05:30|85.5500|89.9000": {
+    "inside": false
+  },
+  "OBTAP|GIPCL.NS|3 Month|2016-09-30 00:00:00+05:30|85.5500|89.9000": {
+    "inside": false
+  },
+  "OBTAP|GODFRYPHLP.NS|1 Month|2016-09-30 00:00:00+05:30|376.3333|482.0000": {
+    "inside": false
+  },
+  "OBTAP|GOLDIAM.NS|1 Month|2016-09-30 00:00:00+05:30|9.9300|11.2500": {
+    "inside": false
+  },
+  "OBTAP|GSS.NS|1 Month|2016-09-30 00:00:00+05:30|25.5000|32.5000": {
+    "inside": false
+  },
+  "OBTAP|HEALTHX.NS|3 Month|2016-09-30 00:00:00+05:30|42.6500|54.0000": {
+    "inside": false
+  },
+  "OBTAP|HMT.NS|1 Month|2016-09-30 00:00:00+05:30|35.2500|40.0000": {
+    "inside": false
+  },
+  "OBTAP|HMT.NS|3 Month|2016-09-30 00:00:00+05:30|35.2500|40.0000": {
+    "inside": false
+  },
+  "OBTAP|HUHTAMAKI.NS|1 Month|2016-09-30 00:00:00+05:30|253.0000|284.0000": {
+    "last_tap_ts": "2026-09-14T04:10:27.575626+00:00",
+    "inside": true
+  },
+  "OBTAP|INDOTECH.NS|1 Month|2016-09-30 00:00:00+05:30|177.0000|197.9500": {
+    "inside": false
+  },
+  "OBTAP|INDOTECH.NS|3 Month|2016-09-30 00:00:00+05:30|177.0000|197.9500": {
+    "inside": false
+  },
+  "OBTAP|INDRAMEDCO.NS|1 Month|2016-09-30 00:00:00+05:30|51.1500|55.7500": {
+    "inside": false
+  },
+  "OBTAP|JAYAGROGN.NS|1 Month|2016-09-30 00:00:00+05:30|142.7000|169.8500": {
+    "inside": false
+  },
+  "OBTAP|JAYAGROGN.NS|3 Month|2016-09-30 00:00:00+05:30|142.7000|169.8500": {
+    "inside": false
+  },
+  "OBTAP|JAYNECOIND.NS|1 Month|2016-09-30 00:00:00+05:30|6.3500|7.7000": {
+    "inside": false
+  },
+  "OBTAP|JINDRILL.NS|1 Month|2016-09-30 00:00:00+05:30|151.0000|180.7500": {
+    "inside": false
+  },
+  "OBTAP|JWL.NS|1 Month|2016-09-30 00:00:00+05:30|11.7000|14.3000": {
+    "inside": false
+  },
+  "OBTAP|KALYANIFRG.NS|1 Month|2016-09-30 00:00:00+05:30|253.0000|275.0000": {
+    "inside": false
+  },
+  "OBTAP|KEC.NS|3 Month|2016-09-30 00:00:00+05:30|117.1500|129.2500": {
+    "inside": false
+  },
+  "OBTAP|KOHINOOR.NS|3 Month|2016-09-30 00:00:00+05:30|50.1000|60.4000": {
+    "inside": false
+  },
+  "OBTAP|LOVABLE.NS|1 Month|2016-09-30 00:00:00+05:30|250.0000|283.0000": {
+    "inside": false
+  },
+  "OBTAP|LTM.NS|3 Month|2016-09-30 00:00:00+05:30|613.0000|648.7000": {
+    "inside": false
+  },
+  "OBTAP|MAANALU.NS|1 Month|2016-09-30 00:00:00+05:30|3.5156|4.3750": {
+    "inside": false
+  },
+  "OBTAP|MAANALU.NS|3 Month|2016-09-30 00:00:00+05:30|3.5156|4.3750": {
+    "inside": false
+  },
+  "OBTAP|MAHSCOOTER.NS|1 Month|2016-09-30 00:00:00+05:30|1426.1500|1520.0500": {
+    "inside": false
+  },
+  "OBTAP|MAHSCOOTER.NS|3 Month|2016-09-30 00:00:00+05:30|1426.1500|1520.0500": {
+    "inside": false
+  },
+  "OBTAP|MAITHANALL.NS|1 Month|2016-09-30 00:00:00+05:30|220.5000|274.7500": {
+    "inside": false
+  },
+  "OBTAP|MAITHANALL.NS|3 Month|2016-09-30 00:00:00+05:30|220.5000|274.7500": {
+    "inside": false
+  },
+  "OBTAP|MBAPL.NS|1 Month|2016-09-30 00:00:00+05:30|1.4500|1.6000": {
+    "inside": false
+  },
+  "OBTAP|MBAPL.NS|3 Month|2016-09-30 00:00:00+05:30|1.4500|1.6000": {
+    "inside": false
+  },
+  "OBTAP|NAHARCAP.NS|1 Month|2016-09-30 00:00:00+05:30|78.1000|85.9500": {
+    "inside": false
+  },
+  "OBTAP|NAHARCAP.NS|3 Month|2016-09-30 00:00:00+05:30|78.1000|85.9500": {
+    "inside": false
+  },
+  "OBTAP|NATIONALUM.NS|1 Month|2016-09-30 00:00:00+05:30|42.6500|47.4000": {
+    "inside": false
+  },
+  "OBTAP|NATIONALUM.NS|3 Month|2016-09-30 00:00:00+05:30|42.6500|47.4000": {
+    "inside": false
+  },
+  "OBTAP|NDLVENTURE.NS|1 Month|2016-09-30 00:00:00+05:30|56.6100|61.8253": {
+    "inside": false
+  },
+  "OBTAP|NDLVENTURE.NS|3 Month|2016-09-30 00:00:00+05:30|56.6100|61.8253": {
+    "inside": false
+  },
+  "OBTAP|NEULANDLAB.NS|3 Month|2016-09-30 00:00:00+05:30|962.5000|1017.0000": {
+    "inside": false
+  },
+  "OBTAP|NLCINDIA.NS|1 Month|2016-09-30 00:00:00+05:30|70.0000|75.9500": {
+    "inside": false
+  },
+  "OBTAP|NLCINDIA.NS|3 Month|2016-09-30 00:00:00+05:30|70.0000|75.9500": {
+    "inside": false
+  },
+  "OBTAP|NTPC.NS|3 Month|2016-09-30 00:00:00+05:30|122.7500|131.6667": {
+    "inside": false
+  },
+  "OBTAP|PGHL.NS|1 Month|2016-09-30 00:00:00+05:30|686.0000|733.5000": {
+    "inside": false
+  },
+  "OBTAP|PGHL.NS|3 Month|2016-09-30 00:00:00+05:30|686.0000|733.5000": {
+    "inside": false
+  },
+  "OBTAP|POWERGRID.NS|3 Month|2016-09-30 00:00:00+05:30|96.4969|102.4313": {
+    "inside": false
   }
 }
