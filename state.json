@@ -150326,5 +150326,2330 @@
   },
   "OBTAP|ZYDUSWELL.NS|3 Month|2026-03-31 00:00:00+05:30|367.5500|486.8000": {
     "inside": false
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2017-06-30 00:00:00+05:30|127.5500|148.0000": {
+    "last_tap_ts": "2026-09-14T03:26:20.235023+00:00",
+    "inside": true
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2017-09-30 00:00:00+05:30|136.5500|157.8000": {
+    "last_tap_ts": "2026-09-14T03:26:20.855006+00:00",
+    "inside": true
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2020-05-31 00:00:00+05:30|31.0000|35.2000": {
+    "inside": false
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2022-09-30 00:00:00+05:30|45.8500|54.4500": {
+    "inside": false
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2023-08-31 00:00:00+05:30|82.5500|91.9000": {
+    "inside": false
+  },
+  "OBTAP|BANKINDIA.NS|1 Month|2025-12-31 00:00:00+05:30|136.7100|149.4000": {
+    "last_tap_ts": "2026-09-14T03:26:21.404228+00:00",
+    "inside": true
+  },
+  "OBTAP|BANKINDIA.NS|3 Month|2016-12-31 00:00:00+05:30|99.6500|128.7500": {
+    "inside": false
+  },
+  "OBTAP|BANKINDIA.NS|3 Month|2017-09-30 00:00:00+05:30|136.2000|167.6000": {
+    "last_tap_ts": "2026-09-14T03:26:21.952549+00:00",
+    "inside": true
+  },
+  "OBTAP|BANKINDIA.NS|3 Month|2023-06-30 00:00:00+05:30|69.5000|89.2000": {
+    "inside": false
+  },
+  "OBTAP|BANSWRAS.NS|1 Month|2023-03-31 00:00:00+05:30|110.1500|141.0000": {
+    "last_tap_ts": "2026-09-14T03:26:24.005262+00:00",
+    "inside": true
+  },
+  "OBTAP|BANSWRAS.NS|3 Month|2020-09-30 00:00:00+05:30|30.1500|40.9000": {
+    "inside": false
+  },
+  "OBTAP|BANSWRAS.NS|3 Month|2021-03-31 00:00:00+05:30|48.5500|72.5000": {
+    "inside": false
+  },
+  "OBTAP|BAYERCROP.NS|3 Month|2017-03-31 00:00:00+05:30|3737.8999|4300.0498": {
+    "last_tap_ts": "2026-09-14T03:26:28.380240+00:00",
+    "inside": true
+  },
+  "OBTAP|BAYERCROP.NS|3 Month|2020-03-31 00:00:00+05:30|2925.0000|4666.0000": {
+    "last_tap_ts": "2026-09-14T03:26:28.940779+00:00",
+    "inside": true
+  },
+  "OBTAP|BAYERCROP.NS|3 Month|2024-03-31 00:00:00+05:30|4901.2002|6201.2500": {
+    "inside": false
+  },
+  "OBTAP|BAYERCROP.NS|3 Month|2025-03-31 00:00:00+05:30|4217.4502|5775.8501": {
+    "inside": false
+  },
+  "OBTAP|BBL.NS|1 Month|2026-03-31 00:00:00+05:30|2051.7000|2427.3000": {
+    "last_tap_ts": "2026-09-14T03:26:30.342792+00:00",
+    "inside": true
+  },
+  "OBTAP|BBTC.NS|1 Month|2018-03-31 00:00:00+05:30|1082.0000|1476.0000": {
+    "last_tap_ts": "2026-09-14T03:26:32.575612+00:00",
+    "inside": true
+  },
+  "OBTAP|BBTC.NS|1 Month|2023-03-31 00:00:00+05:30|781.0500|905.0000": {
+    "inside": false
+  },
+  "OBTAP|BBTC.NS|1 Month|2023-08-31 00:00:00+05:30|970.0500|1154.0000": {
+    "inside": false
+  },
+  "OBTAP|BBTC.NS|1 Month|2024-05-31 00:00:00+05:30|1457.4000|1605.4000": {
+    "inside": false
+  },
+  "OBTAP|BBTC.NS|3 Month|2016-12-31 00:00:00+05:30|441.0500|674.0000": {
+    "inside": false
+  },
+  "OBTAP|BBTC.NS|3 Month|2024-03-31 00:00:00+05:30|1463.1500|1839.9500": {
+    "inside": false
+  },
+  "OBTAP|BBTCL.NS|1 Month|2022-07-31 00:00:00+05:30|213.0000|235.0000": {
+    "last_tap_ts": "2026-09-14T03:26:33.957936+00:00",
+    "inside": true
+  },
+  "OBTAP|BBTCL.NS|3 Month|2020-09-30 00:00:00+05:30|27.2000|41.5000": {
+    "inside": false
+  },
+  "OBTAP|BBTCL.NS|3 Month|2021-06-30 00:00:00+05:30|74.0000|81.0000": {
+    "inside": false
+  },
+  "OBTAP|BCLIND.NS|1 Month|2022-12-31 00:00:00+05:30|28.5350|40.4400": {
+    "last_tap_ts": "2026-09-14T03:26:36.078714+00:00",
+    "inside": true
+  },
+  "OBTAP|BCLIND.NS|1 Month|2026-03-31 00:00:00+05:30|25.5300|28.9900": {
+    "inside": false
+  },
+  "OBTAP|BCLIND.NS|3 Month|2021-03-31 00:00:00+05:30|9.8250|14.8000": {
+    "inside": false
+  },
+  "OBTAP|BCLIND.NS|3 Month|2021-09-30 00:00:00+05:30|19.2300|28.9700": {
+    "inside": false
+  },
+  "OBTAP|BECTORFOOD.NS|3 Month|2024-03-31 00:00:00+05:30|192.8600|253.1900": {
+    "last_tap_ts": "2026-09-14T03:26:40.026981+00:00",
+    "inside": true
+  },
+  "OBTAP|BEML.NS|3 Month|2025-03-31 00:00:00+05:30|1175.0000|2124.0249": {
+    "last_tap_ts": "2026-09-14T03:26:44.227953+00:00",
+    "inside": true
+  },
+  "OBTAP|BERGEPAINT.NS|3 Month|2020-06-30 00:00:00+05:30|359.5417|460.0000": {
+    "last_tap_ts": "2026-09-14T03:26:47.485055+00:00",
+    "inside": true
+  },
+  "OBTAP|BERGEPAINT.NS|3 Month|2024-06-30 00:00:00+05:30|439.0000|574.0000": {
+    "last_tap_ts": "2026-09-14T03:26:48.042387+00:00",
+    "inside": true
+  },
+  "OBTAP|BESTAGRO.NS|3 Month|2021-06-30 00:00:00+05:30|13.4900|33.8000": {
+    "last_tap_ts": "2026-09-14T03:26:49.483597+00:00",
+    "inside": true
+  },
+  "OBTAP|BESTAGRO.NS|3 Month|2022-06-30 00:00:00+05:30|50.1333|72.3333": {
+    "inside": false
+  },
+  "OBTAP|BFINVEST.NS|3 Month|2023-06-30 00:00:00+05:30|368.0000|453.9500": {
+    "last_tap_ts": "2026-09-14T03:26:51.612539+00:00",
+    "inside": true
+  },
+  "OBTAP|BFINVEST.NS|3 Month|2024-03-31 00:00:00+05:30|493.0000|650.0000": {
+    "inside": false
+  },
+  "OBTAP|BHANDARI.NS|3 Month|2021-09-30 00:00:00+05:30|2.6042|3.8580": {
+    "last_tap_ts": "2026-09-14T03:26:56.250695+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATGEAR.NS|1 Month|2022-07-31 00:00:00+05:30|90.0667|105.6000": {
+    "last_tap_ts": "2026-09-14T03:26:59.076537+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATGEAR.NS|1 Month|2025-08-31 00:00:00+05:30|85.0000|103.8800": {
+    "last_tap_ts": "2026-09-14T03:26:59.631686+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATGEAR.NS|3 Month|2022-06-30 00:00:00+05:30|80.3333|110.0000": {
+    "last_tap_ts": "2026-09-14T03:27:00.204961+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATGEAR.NS|3 Month|2026-03-31 00:00:00+05:30|83.8000|123.3600": {
+    "last_tap_ts": "2026-09-14T03:27:00.749678+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATRAS.NS|1 Month|2018-03-31 00:00:00+05:30|1051.5000|1174.7500": {
+    "last_tap_ts": "2026-09-14T03:27:02.237692+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATRAS.NS|1 Month|2021-03-31 00:00:00+05:30|2313.7500|2645.0000": {
+    "inside": false
+  },
+  "OBTAP|BHARATRAS.NS|1 Month|2024-03-31 00:00:00+05:30|2083.1875|2345.0000": {
+    "inside": false
+  },
+  "OBTAP|BHARATRAS.NS|1 Month|2024-07-31 00:00:00+05:30|2576.1125|3049.0249": {
+    "inside": false
+  },
+  "OBTAP|BHARATRAS.NS|3 Month|2017-09-30 00:00:00+05:30|659.0000|924.5000": {
+    "inside": false
+  },
+  "OBTAP|BHARATRAS.NS|3 Month|2019-06-30 00:00:00+05:30|958.0500|1212.5000": {
+    "last_tap_ts": "2026-09-14T03:27:02.833093+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATRAS.NS|3 Month|2021-03-31 00:00:00+05:30|2313.7500|2689.5000": {
+    "inside": false
+  },
+  "OBTAP|BHARATRAS.NS|3 Month|2024-03-31 00:00:00+05:30|2083.1875|2518.2500": {
+    "inside": false
+  },
+  "OBTAP|BHARATWIRE.NS|1 Month|2023-06-30 00:00:00+05:30|170.5500|192.7500": {
+    "last_tap_ts": "2026-09-14T03:27:04.925619+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATWIRE.NS|1 Month|2026-03-31 00:00:00+05:30|148.0100|176.0000": {
+    "last_tap_ts": "2026-09-14T03:27:05.537662+00:00",
+    "inside": true
+  },
+  "OBTAP|BHARATWIRE.NS|3 Month|2016-09-30 00:00:00+05:30|38.1500|42.0000": {
+    "inside": false
+  },
+  "OBTAP|BHARATWIRE.NS|3 Month|2017-09-30 00:00:00+05:30|74.5500|113.3000": {
+    "inside": false
+  },
+  "OBTAP|BHARATWIRE.NS|3 Month|2021-03-31 00:00:00+05:30|30.6000|45.8500": {
+    "inside": false
+  },
+  "OBTAP|BHARATWIRE.NS|3 Month|2022-06-30 00:00:00+05:30|52.2000|92.5500": {
+    "inside": false
+  },
+  "OBTAP|BHARATWIRE.NS|3 Month|2022-12-31 00:00:00+05:30|87.3000|132.3500": {
+    "inside": false
+  },
+  "OBTAP|BIGBLOC.NS|1 Month|2022-02-28 00:00:00+05:30|34.5500|45.4000": {
+    "last_tap_ts": "2026-09-14T03:27:09.692305+00:00",
+    "inside": true
+  },
+  "OBTAP|BIGBLOC.NS|1 Month|2024-03-31 00:00:00+05:30|83.5000|121.3500": {
+    "inside": false
+  },
+  "OBTAP|BIGBLOC.NS|3 Month|2023-03-31 00:00:00+05:30|58.5000|77.7250": {
+    "inside": false
+  },
+  "OBTAP|BIOCON.NS|1 Month|2020-08-31 00:00:00+05:30|372.2500|418.8000": {
+    "last_tap_ts": "2026-09-14T03:27:13.852371+00:00",
+    "inside": true
+  },
+  "OBTAP|BIOCON.NS|1 Month|2026-04-30 00:00:00+05:30|337.7000|371.9000": {
+    "inside": false
+  },
+  "OBTAP|BIOCON.NS|3 Month|2016-12-31 00:00:00+05:30|134.0667|170.0000": {
+    "inside": false
+  },
+  "OBTAP|BIOCON.NS|3 Month|2019-09-30 00:00:00+05:30|211.0500|265.5000": {
+    "inside": false
+  },
+  "OBTAP|BIOCON.NS|3 Month|2020-03-31 00:00:00+05:30|235.5500|323.5000": {
+    "inside": false
+  },
+  "OBTAP|BIRLAMONEY.NS|1 Month|2024-05-31 00:00:00+05:30|121.0000|139.1000": {
+    "last_tap_ts": "2026-09-14T03:27:17.761004+00:00",
+    "inside": true
+  },
+  "OBTAP|BIRLAMONEY.NS|1 Month|2026-03-31 00:00:00+05:30|95.0000|135.9900": {
+    "last_tap_ts": "2026-09-14T03:27:18.317855+00:00",
+    "inside": true
+  },
+  "OBTAP|BIRLAMONEY.NS|3 Month|2024-03-31 00:00:00+05:30|87.9500|148.3500": {
+    "last_tap_ts": "2026-09-14T03:27:18.961210+00:00",
+    "inside": true
+  },
+  "OBTAP|BIRLAMONEY.NS|3 Month|2024-09-30 00:00:00+05:30|141.0000|189.0800": {
+    "inside": false
+  },
+  "OBTAP|BLACKBUCK.NS|1 Month|2025-09-30 00:00:00+05:30|571.5500|667.7500": {
+    "last_tap_ts": "2026-09-14T03:27:21.668447+00:00",
+    "inside": true
+  },
+  "OBTAP|BLAL.NS|1 Month|2023-07-31 00:00:00+05:30|136.0000|165.9000": {
+    "last_tap_ts": "2026-09-14T03:27:23.702840+00:00",
+    "inside": true
+  },
+  "OBTAP|BLAL.NS|1 Month|2026-03-31 00:00:00+05:30|155.5000|187.0000": {
+    "last_tap_ts": "2026-09-14T03:27:24.289001+00:00",
+    "inside": true
+  },
+  "OBTAP|BLUESTARCO.NS|1 Month|2024-08-31 00:00:00+05:30|1539.1000|1779.0000": {
+    "last_tap_ts": "2026-09-14T03:27:32.624085+00:00",
+    "inside": true
+  },
+  "OBTAP|BLUESTARCO.NS|1 Month|2024-11-30 00:00:00+05:30|1730.1000|1931.1000": {
+    "inside": false
+  },
+  "OBTAP|BLUESTARCO.NS|3 Month|2016-12-31 00:00:00+05:30|218.0000|291.9500": {
+    "inside": false
+  },
+  "OBTAP|BLUESTARCO.NS|3 Month|2017-06-30 00:00:00+05:30|290.0000|362.5000": {
+    "inside": false
+  },
+  "OBTAP|BOROLTD.NS|3 Month|2023-03-31 00:00:00+05:30|251.7017|319.9968": {
+    "last_tap_ts": "2026-09-14T03:27:39.989126+00:00",
+    "inside": true
+  },
+  "OBTAP|BORORENEW.NS|1 Month|2024-11-30 00:00:00+05:30|423.7500|514.8000": {
+    "last_tap_ts": "2026-09-14T03:27:41.349193+00:00",
+    "inside": true
+  },
+  "OBTAP|BORORENEW.NS|1 Month|2026-03-31 00:00:00+05:30|374.4000|455.0000": {
+    "inside": false
+  },
+  "OBTAP|BORORENEW.NS|3 Month|2020-03-31 00:00:00+05:30|27.5000|56.3559": {
+    "inside": false
+  },
+  "OBTAP|BORORENEW.NS|3 Month|2020-09-30 00:00:00+05:30|67.5000|126.2000": {
+    "inside": false
+  },
+  "OBTAP|BORORENEW.NS|3 Month|2026-03-31 00:00:00+05:30|374.4000|551.1000": {
+    "last_tap_ts": "2026-09-14T03:27:41.894187+00:00",
+    "inside": true
+  },
+  "OBTAP|BOSCH-HCIL.NS|3 Month|2018-12-31 00:00:00+05:30|1525.8000|1869.0500": {
+    "last_tap_ts": "2026-09-14T03:27:43.976343+00:00",
+    "inside": true
+  },
+  "OBTAP|BOSCH-HCIL.NS|3 Month|2024-03-31 00:00:00+05:30|951.3500|1293.4000": {
+    "inside": false
+  },
+  "OBTAP|BPCL.NS|1 Month|2024-06-30 00:00:00+05:30|267.1000|343.5000": {
+    "last_tap_ts": "2026-09-14T03:27:46.087752+00:00",
+    "inside": true
+  },
+  "OBTAP|BPCL.NS|3 Month|2018-12-31 00:00:00+05:30|119.2750|191.9000": {
+    "inside": false
+  },
+  "OBTAP|BPCL.NS|3 Month|2019-06-30 00:00:00+05:30|166.7250|210.8500": {
+    "inside": false
+  },
+  "OBTAP|BPCL.NS|3 Month|2023-09-30 00:00:00+05:30|169.5500|198.9500": {
+    "inside": false
+  },
+  "OBTAP|BRITANNIA.NS|3 Month|2023-09-30 00:00:00+05:30|4421.3999|5270.3501": {
+    "last_tap_ts": "2026-09-14T03:27:50.891637+00:00",
+    "inside": true
+  },
+  "OBTAP|BROOKS.NS|3 Month|2021-03-31 00:00:00+05:30|49.3268|77.0112": {
+    "last_tap_ts": "2026-09-14T03:27:52.841946+00:00",
+    "inside": true
+  },
+  "OBTAP|BROOKS.NS|3 Month|2024-06-30 00:00:00+05:30|73.2500|116.0000": {
+    "inside": false
+  },
+  "OBTAP|BUTTERFLY.NS|1 Month|2021-03-31 00:00:00+05:30|518.0000|600.0000": {
+    "last_tap_ts": "2026-09-14T03:27:59.219834+00:00",
+    "inside": true
+  },
+  "OBTAP|BUTTERFLY.NS|1 Month|2021-08-31 00:00:00+05:30|700.0500|827.0000": {
+    "inside": false
+  },
+  "OBTAP|BUTTERFLY.NS|1 Month|2021-11-30 00:00:00+05:30|820.0500|1055.0000": {
+    "inside": false
+  },
+  "OBTAP|BUTTERFLY.NS|1 Month|2022-01-31 00:00:00+05:30|1071.0000|1350.0000": {
+    "inside": false
+  },
+  "OBTAP|BUTTERFLY.NS|1 Month|2022-06-30 00:00:00+05:30|1065.2000|1422.0000": {
+    "inside": false
+  },
+  "OBTAP|BUTTERFLY.NS|3 Month|2022-06-30 00:00:00+05:30|1065.2000|1449.6000": {
+    "inside": false
+  },
+  "OBTAP|BVCL.NS|1 Month|2026-03-31 00:00:00+05:30|31.2000|43.4100": {
+    "last_tap_ts": "2026-09-14T03:28:00.601393+00:00",
+    "inside": true
+  },
+  "OBTAP|BYKE.NS|1 Month|2022-02-28 00:00:00+05:30|28.0000|36.5000": {
+    "last_tap_ts": "2026-09-14T03:28:01.998814+00:00",
+    "inside": true
+  },
+  "OBTAP|BYKE.NS|1 Month|2023-10-31 00:00:00+05:30|37.8500|53.0000": {
+    "inside": false
+  },
+  "OBTAP|BYKE.NS|3 Month|2023-09-30 00:00:00+05:30|34.9000|44.9500": {
+    "inside": false
+  },
+  "OBTAP|BYKE.NS|3 Month|2024-03-31 00:00:00+05:30|53.5000|77.1500": {
+    "inside": false
+  },
+  "OBTAP|BYKE.NS|3 Month|2024-09-30 00:00:00+05:30|67.1000|91.1000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2016-12-31 00:00:00+05:30|97.0500|108.8000": {
+    "last_tap_ts": "2026-09-14T03:28:03.988753+00:00",
+    "inside": true
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2019-11-30 00:00:00+05:30|57.0000|67.5000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2021-01-31 00:00:00+05:30|100.4000|131.9000": {
+    "last_tap_ts": "2026-09-14T03:28:04.536263+00:00",
+    "inside": true
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2022-09-30 00:00:00+05:30|116.2500|141.0000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2023-03-31 00:00:00+05:30|124.0500|149.5000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|1 Month|2025-04-30 00:00:00+05:30|127.9800|178.9000": {
+    "inside": false
+  },
+  "OBTAP|CAMLINFINE.NS|3 Month|2017-09-30 00:00:00+05:30|72.2000|94.9500": {
+    "inside": false
+  },
+  "OBTAP|CANFINHOME.NS|1 Month|2024-05-31 00:00:00+05:30|715.2000|792.0000": {
+    "last_tap_ts": "2026-09-14T03:28:08.031291+00:00",
+    "inside": true
+  },
+  "OBTAP|CANFINHOME.NS|3 Month|2016-12-31 00:00:00+05:30|251.9800|377.9700": {
+    "inside": false
+  },
+  "OBTAP|CANFINHOME.NS|3 Month|2021-06-30 00:00:00+05:30|489.2000|619.9000": {
+    "inside": false
+  },
+  "OBTAP|CANFINHOME.NS|3 Month|2023-03-31 00:00:00+05:30|508.5500|606.1000": {
+    "inside": false
+  },
+  "OBTAP|CANTABIL.NS|1 Month|2024-11-30 00:00:00+05:30|211.0100|244.0000": {
+    "last_tap_ts": "2026-09-14T03:28:10.331100+00:00",
+    "inside": true
+  },
+  "OBTAP|CANTABIL.NS|3 Month|2018-12-31 00:00:00+05:30|24.1900|29.6800": {
+    "inside": false
+  },
+  "OBTAP|CAPACITE.NS|3 Month|2019-03-31 00:00:00+05:30|188.0500|257.0000": {
+    "last_tap_ts": "2026-09-14T03:28:11.813512+00:00",
+    "inside": true
+  },
+  "OBTAP|CAPACITE.NS|3 Month|2023-03-31 00:00:00+05:30|108.9000|166.0000": {
+    "inside": false
+  },
+  "OBTAP|CARBORUNIV.NS|1 Month|2024-02-29 00:00:00+05:30|1025.6000|1180.0000": {
+    "last_tap_ts": "2026-09-14T03:28:15.588560+00:00",
+    "inside": true
+  },
+  "OBTAP|CARBORUNIV.NS|1 Month|2026-03-31 00:00:00+05:30|735.2000|815.7000": {
+    "inside": false
+  },
+  "OBTAP|CARBORUNIV.NS|3 Month|2017-09-30 00:00:00+05:30|313.0000|365.0000": {
+    "inside": false
+  },
+  "OBTAP|CARBORUNIV.NS|3 Month|2020-09-30 00:00:00+05:30|231.6000|293.7500": {
+    "inside": false
+  },
+  "OBTAP|CARBORUNIV.NS|3 Month|2022-06-30 00:00:00+05:30|652.0000|824.7000": {
+    "inside": false
+  },
+  "OBTAP|CARBORUNIV.NS|3 Month|2026-03-31 00:00:00+05:30|735.2000|872.4000": {
+    "inside": false
+  },
+  "OBTAP|ELDEHSG.NS|1 Month|2025-11-30 00:00:00+05:30|756.7000|937.6500": {
+    "last_tap_ts": "2026-09-14T03:30:40.798113+00:00",
+    "inside": true
+  },
+  "OBTAP|ELECON.NS|1 Month|2024-03-31 00:00:00+05:30|395.1500|504.9000": {
+    "last_tap_ts": "2026-09-14T03:30:42.281840+00:00",
+    "inside": true
+  },
+  "OBTAP|ELECON.NS|1 Month|2026-03-31 00:00:00+05:30|352.0000|436.0000": {
+    "last_tap_ts": "2026-09-14T03:30:42.836100+00:00",
+    "inside": true
+  },
+  "OBTAP|ELECON.NS|3 Month|2022-03-31 00:00:00+05:30|64.0250|107.1500": {
+    "inside": false
+  },
+  "OBTAP|ELECON.NS|3 Month|2025-03-31 00:00:00+05:30|376.9500|643.5000": {
+    "last_tap_ts": "2026-09-14T03:30:43.387760+00:00",
+    "inside": true
+  },
+  "OBTAP|ELECTHERM.NS|3 Month|2026-03-31 00:00:00+05:30|551.0000|972.9000": {
+    "last_tap_ts": "2026-09-14T03:30:45.434649+00:00",
+    "inside": true
+  },
+  "OBTAP|ELGIRUBCO.NS|1 Month|2025-07-31 00:00:00+05:30|53.7000|63.6300": {
+    "last_tap_ts": "2026-09-14T03:30:48.365950+00:00",
+    "inside": true
+  },
+  "OBTAP|ELGIRUBCO.NS|1 Month|2026-03-31 00:00:00+05:30|32.7200|50.4000": {
+    "inside": false
+  },
+  "OBTAP|ELGIRUBCO.NS|3 Month|2016-09-30 00:00:00+05:30|31.1000|36.2500": {
+    "inside": false
+  },
+  "OBTAP|ELGIRUBCO.NS|3 Month|2024-03-31 00:00:00+05:30|44.7000|69.9000": {
+    "last_tap_ts": "2026-09-14T03:30:48.925948+00:00",
+    "inside": true
+  },
+  "OBTAP|EMBDL.NS|1 Month|2019-12-31 00:00:00+05:30|55.0000|68.0500": {
+    "last_tap_ts": "2026-09-14T03:30:54.235134+00:00",
+    "inside": true
+  },
+  "OBTAP|EMBDL.NS|1 Month|2021-04-30 00:00:00+05:30|72.5000|91.0000": {
+    "inside": false
+  },
+  "OBTAP|EMBDL.NS|1 Month|2023-03-31 00:00:00+05:30|45.9000|64.7000": {
+    "last_tap_ts": "2026-09-14T03:30:54.786433+00:00",
+    "inside": true
+  },
+  "OBTAP|EMMBI.NS|1 Month|2023-08-31 00:00:00+05:30|82.8500|92.5000": {
+    "last_tap_ts": "2026-09-14T03:30:58.213323+00:00",
+    "inside": true
+  },
+  "OBTAP|EMMBI.NS|3 Month|2016-12-31 00:00:00+05:30|108.1000|140.0000": {
+    "inside": false
+  },
+  "OBTAP|ENERGYDEV.NS|3 Month|2017-09-30 00:00:00+05:30|14.5000|29.4000": {
+    "last_tap_ts": "2026-09-14T03:31:03.230740+00:00",
+    "inside": true
+  },
+  "OBTAP|ENERGYDEV.NS|3 Month|2021-09-30 00:00:00+05:30|8.5500|13.5000": {
+    "inside": false
+  },
+  "OBTAP|EPACK.NS|1 Month|2024-03-31 00:00:00+05:30|150.6000|188.7000": {
+    "last_tap_ts": "2026-09-14T03:31:07.912405+00:00",
+    "inside": true
+  },
+  "OBTAP|EPACK.NS|1 Month|2024-05-31 00:00:00+05:30|170.7000|203.0500": {
+    "last_tap_ts": "2026-09-14T03:31:08.494913+00:00",
+    "inside": true
+  },
+  "OBTAP|EPACK.NS|1 Month|2024-08-31 00:00:00+05:30|231.6000|274.9000": {
+    "inside": false
+  },
+  "OBTAP|EPACK.NS|1 Month|2024-11-30 00:00:00+05:30|361.2000|515.0000": {
+    "inside": false
+  },
+  "OBTAP|EPIGRAL.NS|1 Month|2024-03-31 00:00:00+05:30|951.0000|1226.0000": {
+    "last_tap_ts": "2026-09-14T03:31:10.474093+00:00",
+    "inside": true
+  },
+  "OBTAP|EPIGRAL.NS|1 Month|2026-03-31 00:00:00+05:30|807.0000|909.0000": {
+    "inside": false
+  },
+  "OBTAP|EPIGRAL.NS|3 Month|2023-12-31 00:00:00+05:30|872.1000|1014.0500": {
+    "inside": false
+  },
+  "OBTAP|EPL.NS|1 Month|2026-07-31 00:00:00+05:30|221.2400|246.8600": {
+    "last_tap_ts": "2026-09-14T03:31:12.104280+00:00",
+    "inside": true
+  },
+  "OBTAP|EPL.NS|3 Month|2019-09-30 00:00:00+05:30|78.7500|133.5000": {
+    "inside": false
+  },
+  "OBTAP|ESCORTS.NS|1 Month|2024-03-31 00:00:00+05:30|2670.5500|2966.3501": {
+    "last_tap_ts": "2026-09-14T03:31:17.114219+00:00",
+    "inside": true
+  },
+  "OBTAP|ESCORTS.NS|3 Month|2016-12-31 00:00:00+05:30|270.0000|414.4000": {
+    "inside": false
+  },
+  "OBTAP|ESCORTS.NS|3 Month|2022-06-30 00:00:00+05:30|1306.7000|1934.0000": {
+    "inside": false
+  },
+  "OBTAP|ESCORTS.NS|3 Month|2024-03-31 00:00:00+05:30|2648.3999|3058.8000": {
+    "last_tap_ts": "2026-09-14T03:31:17.655275+00:00",
+    "inside": true
+  },
+  "OBTAP|ESTER.NS|1 Month|2024-03-31 00:00:00+05:30|84.6000|108.4000": {
+    "last_tap_ts": "2026-09-14T03:31:20.957996+00:00",
+    "inside": true
+  },
+  "OBTAP|ESTER.NS|1 Month|2024-06-30 00:00:00+05:30|98.0000|122.7500": {
+    "inside": false
+  },
+  "OBTAP|ESTER.NS|3 Month|2017-09-30 00:00:00+05:30|30.0000|45.6000": {
+    "inside": false
+  },
+  "OBTAP|ESTER.NS|3 Month|2020-03-31 00:00:00+05:30|22.3500|45.2000": {
+    "inside": false
+  },
+  "OBTAP|EUROBOND.NS|1 Month|2023-09-30 00:00:00+05:30|130.1000|155.9500": {
+    "last_tap_ts": "2026-09-14T03:31:24.192040+00:00",
+    "inside": true
+  },
+  "OBTAP|EVERESTIND.NS|1 Month|2021-11-30 00:00:00+05:30|365.5000|457.7000": {
+    "last_tap_ts": "2026-09-14T03:31:27.556595+00:00",
+    "inside": true
+  },
+  "OBTAP|EVERESTIND.NS|1 Month|2023-11-30 00:00:00+05:30|1116.4000|1260.0000": {
+    "inside": false
+  },
+  "OBTAP|EVERESTIND.NS|1 Month|2026-05-31 00:00:00+05:30|360.0500|433.2000": {
+    "last_tap_ts": "2026-09-14T03:31:28.106885+00:00",
+    "inside": true
+  },
+  "OBTAP|EVERESTIND.NS|3 Month|2017-09-30 00:00:00+05:30|293.0500|405.5000": {
+    "inside": false
+  },
+  "OBTAP|EVERESTIND.NS|3 Month|2023-03-31 00:00:00+05:30|697.0000|825.0000": {
+    "inside": false
+  },
+  "OBTAP|EXCELINDUS.NS|3 Month|2021-12-31 00:00:00+05:30|820.8500|1130.0000": {
+    "last_tap_ts": "2026-09-14T03:31:29.853124+00:00",
+    "inside": true
+  },
+  "OBTAP|EXCELINDUS.NS|3 Month|2024-03-31 00:00:00+05:30|699.8000|993.9500": {
+    "last_tap_ts": "2026-09-14T03:31:30.415006+00:00",
+    "inside": true
+  },
+  "OBTAP|EXICOM.NS|1 Month|2024-03-31 00:00:00+05:30|169.4000|274.5000": {
+    "last_tap_ts": "2026-09-14T03:31:32.461942+00:00",
+    "inside": true
+  },
+  "OBTAP|EXICOM.NS|1 Month|2026-03-31 00:00:00+05:30|75.6000|95.4800": {
+    "inside": false
+  },
+  "OBTAP|FACT.NS|3 Month|2024-03-31 00:00:00+05:30|572.6000|908.0000": {
+    "last_tap_ts": "2026-09-14T03:31:36.793428+00:00",
+    "inside": true
+  },
+  "OBTAP|FAIRCHEMOR.NS|3 Month|2020-12-31 00:00:00+05:30|605.0000|693.0000": {
+    "last_tap_ts": "2026-09-14T03:31:38.269370+00:00",
+    "inside": true
+  },
+  "OBTAP|FCSSOFT.NS|1 Month|2026-03-31 00:00:00+05:30|1.0500|1.5900": {
+    "last_tap_ts": "2026-09-14T03:31:41.147014+00:00",
+    "inside": true
+  },
+  "OBTAP|FCSSOFT.NS|3 Month|2017-12-31 00:00:00+05:30|0.0500|0.1500": {
+    "inside": false
+  },
+  "OBTAP|FCSSOFT.NS|3 Month|2020-03-31 00:00:00+05:30|0.1000|0.2500": {
+    "inside": false
+  },
+  "OBTAP|FCSSOFT.NS|3 Month|2020-09-30 00:00:00+05:30|0.4000|0.8000": {
+    "inside": false
+  },
+  "OBTAP|FCSSOFT.NS|3 Month|2021-03-31 00:00:00+05:30|0.6500|1.2500": {
+    "inside": false
+  },
+  "OBTAP|FCSSOFT.NS|3 Month|2021-09-30 00:00:00+05:30|1.2000|2.5000": {
+    "last_tap_ts": "2026-09-14T03:31:41.693134+00:00",
+    "inside": true
+  },
+  "OBTAP|FMGOETZE.NS|1 Month|2017-02-28 00:00:00+05:30|460.1000|506.0000": {
+    "last_tap_ts": "2026-09-14T03:31:57.781489+00:00",
+    "inside": true
+  },
+  "OBTAP|FMGOETZE.NS|1 Month|2019-02-28 00:00:00+05:30|461.6000|508.1500": {
+    "inside": false
+  },
+  "OBTAP|FMGOETZE.NS|1 Month|2023-03-31 00:00:00+05:30|300.3000|317.0000": {
+    "inside": false
+  },
+  "OBTAP|FMGOETZE.NS|1 Month|2023-05-31 00:00:00+05:30|312.8000|341.8000": {
+    "inside": false
+  },
+  "OBTAP|FMGOETZE.NS|3 Month|2018-09-30 00:00:00+05:30|395.7000|470.0000": {
+    "last_tap_ts": "2026-09-14T03:31:58.338479+00:00",
+    "inside": true
+  },
+  "OBTAP|FMGOETZE.NS|3 Month|2024-03-31 00:00:00+05:30|313.0500|397.9500": {
+    "inside": false
+  },
+  "OBTAP|FMGOETZE.NS|3 Month|2025-03-31 00:00:00+05:30|308.0000|411.0000": {
+    "inside": false
+  },
+  "OBTAP|FOCUS.NS|1 Month|2023-01-31 00:00:00+05:30|59.2800|71.0800": {
+    "last_tap_ts": "2026-09-14T03:32:00.590013+00:00",
+    "inside": true
+  },
+  "OBTAP|FOCUS.NS|1 Month|2026-03-31 00:00:00+05:30|57.0600|69.0100": {
+    "last_tap_ts": "2026-09-14T03:32:01.163229+00:00",
+    "inside": true
+  },
+  "OBTAP|FSL.NS|1 Month|2026-06-30 00:00:00+05:30|227.2000|274.8000": {
+    "last_tap_ts": "2026-09-14T03:32:07.023474+00:00",
+    "inside": true
+  },
+  "OBTAP|FSL.NS|3 Month|2017-12-31 00:00:00+05:30|36.0000|45.7000": {
+    "inside": false
+  },
+  "OBTAP|GAIL.NS|1 Month|2024-03-31 00:00:00+05:30|165.5500|196.3500": {
+    "last_tap_ts": "2026-09-14T03:32:10.678472+00:00",
+    "inside": true
+  },
+  "OBTAP|GAIL.NS|3 Month|2016-09-30 00:00:00+05:30|67.0782|74.1563": {
+    "inside": false
+  },
+  "OBTAP|GAIL.NS|3 Month|2020-09-30 00:00:00+05:30|54.6333|71.6667": {
+    "inside": false
+  },
+  "OBTAP|GALLANTT.NS|1 Month|2026-03-31 00:00:00+05:30|509.8000|589.0000": {
+    "last_tap_ts": "2026-09-14T03:32:13.962098+00:00",
+    "inside": true
+  },
+  "OBTAP|GALLANTT.NS|3 Month|2017-12-31 00:00:00+05:30|33.4500|37.0500": {
+    "inside": false
+  },
+  "OBTAP|GANECOS.NS|3 Month|2024-03-31 00:00:00+05:30|900.0000|1149.3000": {
+    "last_tap_ts": "2026-09-14T03:32:16.868986+00:00",
+    "inside": true
+  },
+  "OBTAP|GANESHBE.NS|1 Month|2022-06-30 00:00:00+05:30|105.4000|134.8500": {
+    "last_tap_ts": "2026-09-14T03:32:18.343477+00:00",
+    "inside": true
+  },
+  "OBTAP|GANESHBE.NS|1 Month|2023-10-31 00:00:00+05:30|135.1000|156.4000": {
+    "inside": false
+  },
+  "OBTAP|GANESHBE.NS|1 Month|2023-12-31 00:00:00+05:30|147.9000|176.2000": {
+    "inside": false
+  },
+  "OBTAP|GANESHBE.NS|1 Month|2026-03-31 00:00:00+05:30|70.2500|82.7900": {
+    "inside": false
+  },
+  "OBTAP|GANGAFORGE.NS|3 Month|2018-09-30 00:00:00+05:30|1.4250|1.8750": {
+    "last_tap_ts": "2026-09-14T03:32:21.199428+00:00",
+    "inside": true
+  },
+  "OBTAP|GANGAFORGE.NS|3 Month|2020-06-30 00:00:00+05:30|0.7688|1.2975": {
+    "inside": false
+  },
+  "OBTAP|GANGESSECU.NS|1 Month|2024-03-31 00:00:00+05:30|111.1000|153.0000": {
+    "last_tap_ts": "2026-09-14T03:32:22.723085+00:00",
+    "inside": true
+  },
+  "OBTAP|GANGESSECU.NS|3 Month|2024-03-31 00:00:00+05:30|111.1000|153.0000": {
+    "last_tap_ts": "2026-09-14T03:32:23.278405+00:00",
+    "inside": true
+  },
+  "OBTAP|GARFIBRES.NS|1 Month|2024-10-31 00:00:00+05:30|734.4000|895.6000": {
+    "last_tap_ts": "2026-09-14T03:32:24.946853+00:00",
+    "inside": true
+  },
+  "OBTAP|GARFIBRES.NS|3 Month|2019-03-31 00:00:00+05:30|192.7200|242.0600": {
+    "inside": false
+  },
+  "OBTAP|GATECH.NS|1 Month|2022-08-31 00:00:00+05:30|0.7000|0.8000": {
+    "last_tap_ts": "2026-09-14T03:32:26.919101+00:00",
+    "inside": true
+  },
+  "OBTAP|GATECH.NS|1 Month|2026-06-30 00:00:00+05:30|0.4500|0.5800": {
+    "inside": false
+  },
+  "OBTAP|GATECH.NS|3 Month|2017-09-30 00:00:00+05:30|5.4500|9.5000": {
+    "inside": false
+  },
+  "OBTAP|GATECH.NS|3 Month|2023-09-30 00:00:00+05:30|1.1000|1.2500": {
+    "inside": false
+  },
+  "OBTAP|GAYAHWS.NS|1 Month|2025-08-31 00:00:00+05:30|1.5100|2.2900": {
+    "last_tap_ts": "2026-09-14T03:32:30.023572+00:00",
+    "inside": true
+  },
+  "OBTAP|GAYAHWS.NS|3 Month|2020-09-30 00:00:00+05:30|0.3000|0.5500": {
+    "inside": false
+  },
+  "OBTAP|GAYAHWS.NS|3 Month|2025-06-30 00:00:00+05:30|0.9700|1.4600": {
+    "inside": false
+  },
+  "OBTAP|GEEKAYWIRE.NS|1 Month|2023-09-30 00:00:00+05:30|27.7600|34.3800": {
+    "last_tap_ts": "2026-09-14T03:32:33.474321+00:00",
+    "inside": true
+  },
+  "OBTAP|GEEKAYWIRE.NS|1 Month|2023-11-30 00:00:00+05:30|37.6000|43.6250": {
+    "inside": false
+  },
+  "OBTAP|GEEKAYWIRE.NS|3 Month|2017-09-30 00:00:00+05:30|3.3100|3.3900": {
+    "inside": false
+  },
+  "OBTAP|GEEKAYWIRE.NS|3 Month|2019-12-31 00:00:00+05:30|3.2000|3.4000": {
+    "inside": false
+  },
+  "OBTAP|GENESYS.NS|1 Month|2023-10-31 00:00:00+05:30|304.5000|369.7000": {
+    "last_tap_ts": "2026-09-14T03:32:36.515857+00:00",
+    "inside": true
+  },
+  "OBTAP|GENESYS.NS|1 Month|2023-12-31 00:00:00+05:30|387.0000|456.3500": {
+    "inside": false
+  },
+  "OBTAP|GENESYS.NS|3 Month|2016-09-30 00:00:00+05:30|67.0000|78.3000": {
+    "inside": false
+  },
+  "OBTAP|GENUSPAPER.NS|1 Month|2026-03-31 00:00:00+05:30|8.6700|12.9000": {
+    "last_tap_ts": "2026-09-14T03:32:38.600131+00:00",
+    "inside": true
+  },
+  "OBTAP|GENUSPAPER.NS|3 Month|2016-09-30 00:00:00+05:30|3.7500|4.5000": {
+    "inside": false
+  },
+  "OBTAP|GENUSPAPER.NS|3 Month|2021-03-31 00:00:00+05:30|6.2500|8.5000": {
+    "inside": false
+  },
+  "OBTAP|GENUSPOWER.NS|1 Month|2024-06-30 00:00:00+05:30|274.7500|333.7500": {
+    "last_tap_ts": "2026-09-14T03:32:40.155680+00:00",
+    "inside": true
+  },
+  "OBTAP|GENUSPOWER.NS|1 Month|2026-03-31 00:00:00+05:30|211.7000|266.2500": {
+    "inside": false
+  },
+  "OBTAP|GEOJITFSL.NS|3 Month|2024-03-31 00:00:00+05:30|61.2000|90.0000": {
+    "last_tap_ts": "2026-09-14T03:32:41.779489+00:00",
+    "inside": true
+  },
+  "OBTAP|GFLLIMITED.NS|1 Month|2023-07-31 00:00:00+05:30|51.0000|59.0000": {
+    "last_tap_ts": "2026-09-14T03:32:44.139932+00:00",
+    "inside": true
+  },
+  "OBTAP|GFLLIMITED.NS|3 Month|2016-12-31 00:00:00+05:30|41.2161|52.8153": {
+    "inside": false
+  },
+  "OBTAP|GFLLIMITED.NS|3 Month|2017-09-30 00:00:00+05:30|63.0531|81.8651": {
+    "inside": false
+  },
+  "OBTAP|GHCL.NS|1 Month|2022-02-28 00:00:00+05:30|385.0000|488.4000": {
+    "last_tap_ts": "2026-09-14T03:32:46.539277+00:00",
+    "inside": true
+  },
+  "OBTAP|GHCL.NS|3 Month|2017-09-30 00:00:00+05:30|204.0000|246.8000": {
+    "inside": false
+  },
+  "OBTAP|GHCL.NS|3 Month|2021-12-31 00:00:00+05:30|348.5000|483.0000": {
+    "last_tap_ts": "2026-09-14T03:32:47.095418+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLANDERS.NS|1 Month|2023-10-31 00:00:00+05:30|82.5000|108.0500": {
+    "last_tap_ts": "2026-09-14T03:32:51.322567+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLANDERS.NS|1 Month|2025-03-31 00:00:00+05:30|93.3900|105.0000": {
+    "last_tap_ts": "2026-09-14T03:32:51.865461+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLANDERS.NS|3 Month|2017-09-30 00:00:00+05:30|56.4500|69.0000": {
+    "inside": false
+  },
+  "OBTAP|GILLANDERS.NS|3 Month|2020-09-30 00:00:00+05:30|25.6000|32.1000": {
+    "inside": false
+  },
+  "OBTAP|GILLANDERS.NS|3 Month|2024-09-30 00:00:00+05:30|81.2800|112.0000": {
+    "last_tap_ts": "2026-09-14T03:32:52.416271+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLANDERS.NS|3 Month|2025-03-31 00:00:00+05:30|93.3900|129.9500": {
+    "last_tap_ts": "2026-09-14T03:32:52.976097+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLETTE.NS|1 Month|2019-09-30 00:00:00+05:30|6915.5000|7450.0000": {
+    "last_tap_ts": "2026-09-14T03:32:54.610684+00:00",
+    "inside": true
+  },
+  "OBTAP|GILLETTE.NS|1 Month|2023-05-31 00:00:00+05:30|4222.5498|4735.6001": {
+    "inside": false
+  },
+  "OBTAP|GILLETTE.NS|1 Month|2023-08-31 00:00:00+05:30|5402.5000|5784.0000": {
+    "inside": false
+  },
+  "OBTAP|GILLETTE.NS|1 Month|2024-09-30 00:00:00+05:30|8430.0000|9560.0000": {
+    "inside": false
+  },
+  "OBTAP|GILLETTE.NS|3 Month|2017-03-31 00:00:00+05:30|4022.2000|4348.0000": {
+    "inside": false
+  },
+  "OBTAP|GILLETTE.NS|3 Month|2018-06-30 00:00:00+05:30|6344.0000|6644.0000": {
+    "inside": false
+  },
+  "OBTAP|GILLETTE.NS|3 Month|2025-03-31 00:00:00+05:30|7411.6499|10059.6504": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|1 Month|2017-05-31 00:00:00+05:30|36.2500|47.9500": {
+    "last_tap_ts": "2026-09-14T03:32:56.131965+00:00",
+    "inside": true
+  },
+  "OBTAP|GINNIFILA.NS|1 Month|2020-05-31 00:00:00+05:30|5.9500|7.1500": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|1 Month|2020-10-31 00:00:00+05:30|11.1000|14.2000": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|1 Month|2021-11-30 00:00:00+05:30|30.4500|38.7000": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|1 Month|2023-12-31 00:00:00+05:30|28.5500|36.7500": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2016-12-31 00:00:00+05:30|18.6000|26.4000": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2020-09-30 00:00:00+05:30|9.4000|14.6500": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2021-03-31 00:00:00+05:30|17.2500|24.7500": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2021-09-30 00:00:00+05:30|28.1000|42.3000": {
+    "last_tap_ts": "2026-09-14T03:32:56.694758+00:00",
+    "inside": true
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2025-03-31 00:00:00+05:30|19.0100|35.4500": {
+    "inside": false
+  },
+  "OBTAP|GINNIFILA.NS|3 Month|2026-03-31 00:00:00+05:30|31.5000|48.3900": {
+    "last_tap_ts": "2026-09-14T03:32:57.298444+00:00",
+    "inside": true
+  },
+  "OBTAP|GKWLIMITED.NS|1 Month|2024-03-31 00:00:00+05:30|1315.0000|1679.8000": {
+    "last_tap_ts": "2026-09-14T03:33:00.926077+00:00",
+    "inside": true
+  },
+  "OBTAP|GKWLIMITED.NS|3 Month|2017-06-30 00:00:00+05:30|380.0000|448.0000": {
+    "inside": false
+  },
+  "OBTAP|GKWLIMITED.NS|3 Month|2023-03-31 00:00:00+05:30|485.2500|568.9000": {
+    "inside": false
+  },
+  "OBTAP|GKWLIMITED.NS|3 Month|2024-03-31 00:00:00+05:30|1315.0000|1949.0000": {
+    "last_tap_ts": "2026-09-14T03:33:01.454575+00:00",
+    "inside": true
+  },
+  "OBTAP|GLFL.NS|1 Month|2026-03-31 00:00:00+05:30|3.7900|5.3000": {
+    "last_tap_ts": "2026-09-14T03:33:05.297874+00:00",
+    "inside": true
+  },
+  "OBTAP|GLFL.NS|3 Month|2016-09-30 00:00:00+05:30|1.6000|1.7500": {
+    "inside": false
+  },
+  "OBTAP|GLOBALE.NS|1 Month|2026-03-31 00:00:00+05:30|9.2000|12.0000": {
+    "last_tap_ts": "2026-09-14T03:33:07.398819+00:00",
+    "inside": true
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2017-09-30 00:00:00+05:30|126.3500|165.7000": {
+    "last_tap_ts": "2026-09-14T03:33:08.880882+00:00",
+    "inside": true
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2021-06-30 00:00:00+05:30|46.1500|60.0000": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2021-11-30 00:00:00+05:30|51.8000|60.4000": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2023-05-31 00:00:00+05:30|56.0000|64.3500": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2023-09-30 00:00:00+05:30|74.2000|88.4000": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2023-11-30 00:00:00+05:30|87.0000|107.8000": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|1 Month|2024-08-31 00:00:00+05:30|238.1000|298.0500": {
+    "inside": false
+  },
+  "OBTAP|GLOBALVECT.NS|3 Month|2024-03-31 00:00:00+05:30|105.6500|149.9500": {
+    "last_tap_ts": "2026-09-14T03:33:09.421983+00:00",
+    "inside": true
+  },
+  "OBTAP|GLOBUSSPR.NS|1 Month|2026-03-31 00:00:00+05:30|800.0500|915.2000": {
+    "last_tap_ts": "2026-09-14T03:33:11.949867+00:00",
+    "inside": true
+  },
+  "OBTAP|GLOBUSSPR.NS|3 Month|2017-06-30 00:00:00+05:30|62.1000|77.4000": {
+    "inside": false
+  },
+  "OBTAP|GLOBUSSPR.NS|3 Month|2021-03-31 00:00:00+05:30|293.8500|422.2500": {
+    "inside": false
+  },
+  "OBTAP|GLOBUSSPR.NS|3 Month|2021-12-31 00:00:00+05:30|1066.2500|1513.8000": {
+    "inside": false
+  },
+  "OBTAP|GLOBUSSPR.NS|3 Month|2023-03-31 00:00:00+05:30|739.0000|896.0000": {
+    "last_tap_ts": "2026-09-14T03:33:12.522591+00:00",
+    "inside": true
+  },
+  "OBTAP|GMMPFAUDLR.NS|3 Month|2020-12-31 00:00:00+05:30|1111.7333|1392.6666": {
+    "last_tap_ts": "2026-09-14T03:33:16.458990+00:00",
+    "inside": true
+  },
+  "OBTAP|GMMPFAUDLR.NS|3 Month|2022-06-30 00:00:00+05:30|1256.6666|1692.7500": {
+    "last_tap_ts": "2026-09-14T03:33:16.998046+00:00",
+    "inside": true
+  },
+  "OBTAP|GMRAIRPORT.NS|3 Month|2026-03-31 00:00:00+05:30|84.1100|108.0200": {
+    "last_tap_ts": "2026-09-14T03:33:18.545459+00:00",
+    "inside": true
+  },
+  "OBTAP|GNFC.NS|1 Month|2022-06-30 00:00:00+05:30|533.0000|695.7000": {
+    "last_tap_ts": "2026-09-14T03:33:21.292843+00:00",
+    "inside": true
+  },
+  "OBTAP|GNFC.NS|1 Month|2026-03-31 00:00:00+05:30|365.0000|450.6000": {
+    "inside": false
+  },
+  "OBTAP|GNFC.NS|3 Month|2026-03-31 00:00:00+05:30|365.0000|498.7500": {
+    "inside": false
+  },
+  "OBTAP|GOACARBON.NS|1 Month|2022-10-31 00:00:00+05:30|406.1000|456.7000": {
+    "last_tap_ts": "2026-09-14T03:33:23.345997+00:00",
+    "inside": true
+  },
+  "OBTAP|GOACARBON.NS|1 Month|2024-03-31 00:00:00+05:30|659.9500|866.5000": {
+    "inside": false
+  },
+  "OBTAP|GOACARBON.NS|1 Month|2026-03-31 00:00:00+05:30|272.8500|357.0000": {
+    "inside": false
+  },
+  "OBTAP|INTLCONV.NS|1 Month|2023-10-31 00:00:00+05:30|71.8000|88.5000": {
+    "last_tap_ts": "2026-09-14T03:35:54.413441+00:00",
+    "inside": true
+  },
+  "OBTAP|INTLCONV.NS|3 Month|2023-03-31 00:00:00+05:30|45.8500|63.9000": {
+    "inside": false
+  },
+  "OBTAP|IPL.NS|3 Month|2025-03-31 00:00:00+05:30|119.7900|183.9800": {
+    "last_tap_ts": "2026-09-14T03:35:59.967138+00:00",
+    "inside": true
+  },
+  "OBTAP|IRIS.NS|1 Month|2024-08-31 00:00:00+05:30|240.0000|274.0000": {
+    "last_tap_ts": "2026-09-14T03:36:04.914359+00:00",
+    "inside": true
+  },
+  "OBTAP|IRISDOREME.NS|3 Month|2025-03-31 00:00:00+05:30|41.4600|62.0531": {
+    "last_tap_ts": "2026-09-14T03:36:06.418671+00:00",
+    "inside": true
+  },
+  "OBTAP|IRMENERGY.NS|1 Month|2025-08-31 00:00:00+05:30|263.7000|307.0000": {
+    "last_tap_ts": "2026-09-14T03:36:07.942493+00:00",
+    "inside": true
+  },
+  "OBTAP|IRMENERGY.NS|1 Month|2026-03-31 00:00:00+05:30|165.4000|234.4800": {
+    "inside": false
+  },
+  "OBTAP|ISFT.NS|1 Month|2021-05-31 00:00:00+05:30|78.3000|92.9500": {
+    "last_tap_ts": "2026-09-14T03:36:09.380579+00:00",
+    "inside": true
+  },
+  "OBTAP|ITC.NS|1 Month|2018-06-30 00:00:00+05:30|249.3951|264.4165": {
+    "last_tap_ts": "2026-09-14T03:36:12.552974+00:00",
+    "inside": true
+  },
+  "OBTAP|ITC.NS|1 Month|2022-02-28 00:00:00+05:30|199.3235|229.6553": {
+    "inside": false
+  },
+  "OBTAP|ITC.NS|1 Month|2024-06-30 00:00:00+05:30|387.9104|425.2715": {
+    "inside": false
+  },
+  "OBTAP|ITC.NS|3 Month|2016-12-31 00:00:00+05:30|213.7672|250.0210": {
+    "inside": false
+  },
+  "OBTAP|ITC.NS|3 Month|2022-12-31 00:00:00+05:30|311.2624|348.0457": {
+    "inside": false
+  },
+  "OBTAP|ITC.NS|3 Month|2024-06-30 00:00:00+05:30|387.9104|429.4602": {
+    "inside": false
+  },
+  "OBTAP|ITDC.NS|1 Month|2024-05-31 00:00:00+05:30|594.2500|724.5000": {
+    "last_tap_ts": "2026-09-14T03:36:14.518039+00:00",
+    "inside": true
+  },
+  "OBTAP|ITDC.NS|1 Month|2026-03-31 00:00:00+05:30|368.0000|515.0000": {
+    "inside": false
+  },
+  "OBTAP|ITDC.NS|3 Month|2016-12-31 00:00:00+05:30|210.2000|234.0000": {
+    "inside": false
+  },
+  "OBTAP|ITDC.NS|3 Month|2019-09-30 00:00:00+05:30|151.5500|289.9000": {
+    "inside": false
+  },
+  "OBTAP|ITI.NS|3 Month|2024-09-30 00:00:00+05:30|255.1000|341.5000": {
+    "last_tap_ts": "2026-09-14T03:36:16.217382+00:00",
+    "inside": true
+  },
+  "OBTAP|IZMO.NS|3 Month|2026-03-31 00:00:00+05:30|569.3500|915.0000": {
+    "last_tap_ts": "2026-09-14T03:36:21.155737+00:00",
+    "inside": true
+  },
+  "OBTAP|JAGSNPHARM.NS|1 Month|2025-06-30 00:00:00+05:30|210.0900|243.8900": {
+    "last_tap_ts": "2026-09-14T03:36:24.192027+00:00",
+    "inside": true
+  },
+  "OBTAP|JAGSNPHARM.NS|3 Month|2020-03-31 00:00:00+05:30|6.5000|12.4000": {
+    "inside": false
+  },
+  "OBTAP|JAICORPLTD.NS|3 Month|2021-03-31 00:00:00+05:30|83.4000|109.2000": {
+    "last_tap_ts": "2026-09-14T03:36:26.298892+00:00",
+    "inside": true
+  },
+  "OBTAP|JAMNAAUTO.NS|1 Month|2026-01-31 00:00:00+05:30|113.7200|138.5000": {
+    "last_tap_ts": "2026-09-14T03:36:28.866859+00:00",
+    "inside": true
+  },
+  "OBTAP|JAYAGROGN.NS|3 Month|2024-03-31 00:00:00+05:30|198.0000|283.0500": {
+    "last_tap_ts": "2026-09-14T03:36:31.599175+00:00",
+    "inside": true
+  },
+  "OBTAP|JAYSREETEA.NS|3 Month|2017-09-30 00:00:00+05:30|90.5000|108.8000": {
+    "last_tap_ts": "2026-09-14T03:36:35.297412+00:00",
+    "inside": true
+  },
+  "OBTAP|JAYSREETEA.NS|3 Month|2021-03-31 00:00:00+05:30|57.8000|80.4000": {
+    "inside": false
+  },
+  "OBTAP|JETFREIGHT.NS|3 Month|2021-12-31 00:00:00+05:30|17.1196|23.9631": {
+    "last_tap_ts": "2026-09-14T03:36:38.051577+00:00",
+    "inside": true
+  },
+  "OBTAP|JINDRILL.NS|1 Month|2024-03-31 00:00:00+05:30|522.5500|699.1500": {
+    "last_tap_ts": "2026-09-14T03:36:43.500794+00:00",
+    "inside": true
+  },
+  "OBTAP|JINDRILL.NS|3 Month|2021-12-31 00:00:00+05:30|120.1000|167.9500": {
+    "inside": false
+  },
+  "OBTAP|JINDRILL.NS|3 Month|2023-03-31 00:00:00+05:30|229.8000|305.4000": {
+    "inside": false
+  },
+  "OBTAP|JISLDVREQS.NS|1 Month|2023-06-30 00:00:00+05:30|19.7000|22.6000": {
+    "last_tap_ts": "2026-09-14T03:36:46.261044+00:00",
+    "inside": true
+  },
+  "OBTAP|JISLDVREQS.NS|1 Month|2023-10-31 00:00:00+05:30|27.8500|34.2500": {
+    "inside": false
+  },
+  "OBTAP|JISLDVREQS.NS|3 Month|2017-09-30 00:00:00+05:30|58.0500|73.0000": {
+    "inside": false
+  },
+  "OBTAP|JISLDVREQS.NS|3 Month|2024-03-31 00:00:00+05:30|27.1500|39.9000": {
+    "inside": false
+  },
+  "OBTAP|JKPAPER.NS|3 Month|2024-03-31 00:00:00+05:30|319.1000|452.0000": {
+    "last_tap_ts": "2026-09-14T03:36:51.645029+00:00",
+    "inside": true
+  },
+  "OBTAP|JMA.NS|3 Month|2025-03-31 00:00:00+05:30|72.4100|99.7600": {
+    "last_tap_ts": "2026-09-14T03:36:54.212486+00:00",
+    "inside": true
+  },
+  "OBTAP|JMFINANCIL.NS|3 Month|2025-03-31 00:00:00+05:30|83.6000|135.2200": {
+    "last_tap_ts": "2026-09-14T03:36:55.648983+00:00",
+    "inside": true
+  },
+  "OBTAP|JPPOWER.NS|1 Month|2024-03-31 00:00:00+05:30|14.3500|19.1500": {
+    "last_tap_ts": "2026-09-14T03:36:59.574073+00:00",
+    "inside": true
+  },
+  "OBTAP|JPPOWER.NS|1 Month|2026-03-31 00:00:00+05:30|13.1500|17.3800": {
+    "last_tap_ts": "2026-09-14T03:37:00.119350+00:00",
+    "inside": true
+  },
+  "OBTAP|JPPOWER.NS|3 Month|2016-12-31 00:00:00+05:30|3.4500|4.9000": {
+    "inside": false
+  },
+  "OBTAP|JSLL.NS|1 Month|2023-09-30 00:00:00+05:30|493.5833|625.0000": {
+    "last_tap_ts": "2026-09-14T03:37:02.615389+00:00",
+    "inside": true
+  },
+  "OBTAP|JSLL.NS|1 Month|2025-02-28 00:00:00+05:30|1400.0000|2050.0000": {
+    "inside": false
+  },
+  "OBTAP|JUBLFOOD.NS|1 Month|2020-10-31 00:00:00+05:30|427.0700|483.7700": {
+    "last_tap_ts": "2026-09-14T03:37:10.017990+00:00",
+    "inside": true
+  },
+  "OBTAP|JUBLFOOD.NS|1 Month|2021-06-30 00:00:00+05:30|604.3000|666.5400": {
+    "inside": false
+  },
+  "OBTAP|JUBLFOOD.NS|1 Month|2023-10-31 00:00:00+05:30|491.2500|547.5000": {
+    "inside": false
+  },
+  "OBTAP|JUBLFOOD.NS|3 Month|2017-06-30 00:00:00+05:30|81.7200|111.6400": {
+    "inside": false
+  },
+  "OBTAP|JUBLPHARMA.NS|3 Month|2025-03-31 00:00:00+05:30|842.2500|1130.0000": {
+    "last_tap_ts": "2026-09-14T03:37:12.233833+00:00",
+    "inside": true
+  },
+  "OBTAP|JYOTHYLAB.NS|1 Month|2018-04-30 00:00:00+05:30|179.3000|199.7000": {
+    "last_tap_ts": "2026-09-14T03:37:15.489505+00:00",
+    "inside": true
+  },
+  "OBTAP|JYOTHYLAB.NS|1 Month|2022-06-30 00:00:00+05:30|145.0000|165.9500": {
+    "inside": false
+  },
+  "OBTAP|JYOTHYLAB.NS|1 Month|2023-10-31 00:00:00+05:30|333.0000|411.7000": {
+    "inside": false
+  },
+  "OBTAP|JYOTHYLAB.NS|1 Month|2026-03-31 00:00:00+05:30|196.1500|252.3500": {
+    "inside": false
+  },
+  "OBTAP|JYOTHYLAB.NS|3 Month|2024-06-30 00:00:00+05:30|366.8000|478.2500": {
+    "inside": false
+  },
+  "OBTAP|JYOTICNC.NS|1 Month|2024-10-31 00:00:00+05:30|970.3000|1164.7500": {
+    "last_tap_ts": "2026-09-14T03:37:16.825011+00:00",
+    "inside": true
+  },
+  "OBTAP|KAJARIACER.NS|1 Month|2021-11-30 00:00:00+05:30|1045.8500|1245.0000": {
+    "last_tap_ts": "2026-09-14T03:37:20.290080+00:00",
+    "inside": true
+  },
+  "OBTAP|KAJARIACER.NS|1 Month|2022-06-30 00:00:00+05:30|898.0000|1059.3000": {
+    "inside": false
+  },
+  "OBTAP|KAJARIACER.NS|1 Month|2023-06-30 00:00:00+05:30|1219.0000|1325.0000": {
+    "last_tap_ts": "2026-09-14T03:37:20.833696+00:00",
+    "inside": true
+  },
+  "OBTAP|KAJARIACER.NS|1 Month|2025-04-30 00:00:00+05:30|758.7000|865.8500": {
+    "inside": false
+  },
+  "OBTAP|KAJARIACER.NS|3 Month|2022-06-30 00:00:00+05:30|898.0000|1091.9500": {
+    "inside": false
+  },
+  "OBTAP|KAKATCEM.NS|1 Month|2026-03-31 00:00:00+05:30|85.0000|112.9300": {
+    "last_tap_ts": "2026-09-14T03:37:22.333093+00:00",
+    "inside": true
+  },
+  "OBTAP|KAKATCEM.NS|3 Month|2021-03-31 00:00:00+05:30|153.6000|210.0000": {
+    "inside": false
+  },
+  "OBTAP|KAMATHOTEL.NS|3 Month|2023-09-30 00:00:00+05:30|190.0500|255.0000": {
+    "last_tap_ts": "2026-09-14T03:37:27.808252+00:00",
+    "inside": true
+  },
+  "OBTAP|KANANIIND.NS|1 Month|2026-03-31 00:00:00+05:30|1.0200|1.5100": {
+    "last_tap_ts": "2026-09-14T03:37:30.618513+00:00",
+    "inside": true
+  },
+  "OBTAP|KANANIIND.NS|3 Month|2021-09-30 00:00:00+05:30|4.0500|7.4250": {
+    "inside": false
+  },
+  "OBTAP|KANORICHEM.NS|1 Month|2021-08-31 00:00:00+05:30|130.0500|196.1000": {
+    "last_tap_ts": "2026-09-14T03:37:32.990443+00:00",
+    "inside": true
+  },
+  "OBTAP|KANORICHEM.NS|1 Month|2026-03-31 00:00:00+05:30|56.0000|68.5000": {
+    "inside": false
+  },
+  "OBTAP|KANORICHEM.NS|3 Month|2026-03-31 00:00:00+05:30|56.0000|80.5000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2016-11-30 00:00:00+05:30|29.5500|41.0000": {
+    "last_tap_ts": "2026-09-14T03:37:36.214296+00:00",
+    "inside": true
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2017-03-31 00:00:00+05:30|40.0000|45.9000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2021-11-30 00:00:00+05:30|17.9000|22.9500": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2023-05-31 00:00:00+05:30|31.1000|36.0000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2023-10-31 00:00:00+05:30|40.6500|53.9000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2023-12-31 00:00:00+05:30|76.2000|103.8000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2024-06-30 00:00:00+05:30|54.0000|72.2000": {
+    "inside": false
+  },
+  "OBTAP|KARMAENG.NS|1 Month|2026-03-31 00:00:00+05:30|34.3800|45.0000": {
+    "last_tap_ts": "2026-09-14T03:37:36.769873+00:00",
+    "inside": true
+  },
+  "OBTAP|KARMAENG.NS|3 Month|2016-09-30 00:00:00+05:30|19.0000|22.6000": {
+    "inside": false
+  },
+  "OBTAP|KAYA.NS|1 Month|2024-05-31 00:00:00+05:30|283.0000|387.0000": {
+    "last_tap_ts": "2026-09-14T03:37:40.495353+00:00",
+    "inside": true
+  },
+  "OBTAP|KAYA.NS|3 Month|2025-03-31 00:00:00+05:30|212.9500|353.8000": {
+    "last_tap_ts": "2026-09-14T03:37:41.052415+00:00",
+    "inside": true
+  },
+  "OBTAP|KCP.NS|1 Month|2024-05-31 00:00:00+05:30|155.0500|191.0000": {
+    "last_tap_ts": "2026-09-14T03:37:43.233538+00:00",
+    "inside": true
+  },
+  "OBTAP|KCP.NS|1 Month|2026-03-31 00:00:00+05:30|125.0000|163.2000": {
+    "last_tap_ts": "2026-09-14T03:37:43.784969+00:00",
+    "inside": true
+  },
+  "OBTAP|KCPSUGIND.NS|3 Month|2016-12-31 00:00:00+05:30|25.5500|34.9500": {
+    "last_tap_ts": "2026-09-14T03:37:45.190958+00:00",
+    "inside": true
+  },
+  "OBTAP|KCPSUGIND.NS|3 Month|2017-09-30 00:00:00+05:30|26.7000|34.5500": {
+    "last_tap_ts": "2026-09-14T03:37:45.727421+00:00",
+    "inside": true
+  },
+  "OBTAP|KCPSUGIND.NS|3 Month|2021-03-31 00:00:00+05:30|14.6000|18.4500": {
+    "inside": false
+  },
+  "OBTAP|KECL.NS|1 Month|2024-03-31 00:00:00+05:30|96.3500|126.4000": {
+    "last_tap_ts": "2026-09-14T03:37:49.205384+00:00",
+    "inside": true
+  },
+  "OBTAP|KECL.NS|1 Month|2026-03-31 00:00:00+05:30|77.1000|90.5000": {
+    "inside": false
+  },
+  "OBTAP|KECL.NS|3 Month|2022-06-30 00:00:00+05:30|21.0000|29.0000": {
+    "inside": false
+  },
+  "OBTAP|KECL.NS|3 Month|2024-03-31 00:00:00+05:30|96.3500|163.9500": {
+    "last_tap_ts": "2026-09-14T03:37:49.782099+00:00",
+    "inside": true
+  },
+  "OBTAP|KEEPLEARN.NS|1 Month|2023-10-31 00:00:00+05:30|1.7775|2.0949": {
+    "last_tap_ts": "2026-09-14T03:37:51.159469+00:00",
+    "inside": true
+  },
+  "OBTAP|KEEPLEARN.NS|1 Month|2024-06-30 00:00:00+05:30|2.7000|3.5000": {
+    "inside": false
+  },
+  "OBTAP|KEEPLEARN.NS|1 Month|2024-08-31 00:00:00+05:30|3.9300|4.8000": {
+    "inside": false
+  },
+  "OBTAP|KEEPLEARN.NS|3 Month|2022-03-31 00:00:00+05:30|0.7618|1.0157": {
+    "inside": false
+  },
+  "OBTAP|KEEPLEARN.NS|3 Month|2023-09-30 00:00:00+05:30|1.7457|2.4123": {
+    "last_tap_ts": "2026-09-14T03:37:51.711724+00:00",
+    "inside": true
+  },
+  "OBTAP|KEI.NS|1 Month|2026-01-31 00:00:00+05:30|3728.7000|4587.2998": {
+    "last_tap_ts": "2026-09-14T03:37:53.192268+00:00",
+    "inside": true
+  },
+  "OBTAP|KEI.NS|3 Month|2016-09-30 00:00:00+05:30|108.0000|123.0000": {
+    "inside": false
+  },
+  "OBTAP|KEI.NS|3 Month|2022-06-30 00:00:00+05:30|1040.0000|1377.3500": {
+    "inside": false
+  },
+  "OBTAP|KEI.NS|3 Month|2026-03-31 00:00:00+05:30|3728.7000|5303.0000": {
+    "last_tap_ts": "2026-09-14T03:37:53.737485+00:00",
+    "inside": true
+  },
+  "OBTAP|KHADIM.NS|1 Month|2021-01-31 00:00:00+05:30|119.2000|138.0000": {
+    "last_tap_ts": "2026-09-14T03:37:59.079438+00:00",
+    "inside": true
+  },
+  "OBTAP|KHAICHEM.NS|3 Month|2025-03-31 00:00:00+05:30|45.7500|77.7000": {
+    "last_tap_ts": "2026-09-14T03:38:00.428530+00:00",
+    "inside": true
+  },
+  "OBTAP|KIRIINDUS.NS|3 Month|2025-09-30 00:00:00+05:30|517.0000|639.0000": {
+    "last_tap_ts": "2026-09-14T03:38:07.051616+00:00",
+    "inside": true
+  },
+  "OBTAP|KIRLOSBROS.NS|3 Month|2025-03-31 00:00:00+05:30|1422.3500|2338.3999": {
+    "last_tap_ts": "2026-09-14T03:38:09.106067+00:00",
+    "inside": true
+  },
+  "OBTAP|KIRLOSBROS.NS|3 Month|2026-03-31 00:00:00+05:30|1335.0000|1685.0000": {
+    "inside": false
+  },
+  "OBTAP|KIRLOSIND.NS|1 Month|2024-03-31 00:00:00+05:30|3775.0500|4240.7998": {
+    "last_tap_ts": "2026-09-14T03:38:11.267019+00:00",
+    "inside": true
+  },
+  "OBTAP|KIRLOSIND.NS|1 Month|2026-03-31 00:00:00+05:30|2463.0000|2983.8000": {
+    "inside": false
+  },
+  "OBTAP|KIRLOSIND.NS|1 Month|2026-05-31 00:00:00+05:30|2941.8999|3545.0000": {
+    "inside": false
+  },
+  "OBTAP|KIRLOSIND.NS|3 Month|2016-12-31 00:00:00+05:30|745.0000|967.9500": {
+    "inside": false
+  },
+  "OBTAP|KIRLOSIND.NS|3 Month|2026-03-31 00:00:00+05:30|2463.0000|3310.5000": {
+    "inside": false
+  },
+  "OBTAP|KKCL.NS|3 Month|2023-03-31 00:00:00+05:30|364.1500|526.3500": {
+    "last_tap_ts": "2026-09-14T03:38:14.988924+00:00",
+    "inside": true
+  },
+  "OBTAP|KMSUGAR.NS|1 Month|2024-03-31 00:00:00+05:30|27.0500|34.3000": {
+    "last_tap_ts": "2026-09-14T03:38:18.077169+00:00",
+    "inside": true
+  },
+  "OBTAP|KMSUGAR.NS|3 Month|2016-09-30 00:00:00+05:30|11.7000|14.4500": {
+    "inside": false
+  },
+  "OBTAP|KMSUGAR.NS|3 Month|2021-03-31 00:00:00+05:30|9.2000|14.7000": {
+    "inside": false
+  },
+  "OBTAP|KMSUGAR.NS|3 Month|2024-03-31 00:00:00+05:30|27.0500|39.2500": {
+    "last_tap_ts": "2026-09-14T03:38:18.637240+00:00",
+    "inside": true
+  },
+  "OBTAP|NAUKRI.NS|1 Month|2024-05-31 00:00:00+05:30|1122.0100|1309.0000": {
+    "last_tap_ts": "2026-09-14T03:41:22.635077+00:00",
+    "inside": true
+  },
+  "OBTAP|NAUKRI.NS|1 Month|2026-06-30 00:00:00+05:30|949.0500|1029.0000": {
+    "inside": false
+  },
+  "OBTAP|NAUKRI.NS|3 Month|2017-03-31 00:00:00+05:30|159.2600|182.2000": {
+    "inside": false
+  },
+  "OBTAP|NAUKRI.NS|3 Month|2019-09-30 00:00:00+05:30|366.3000|467.9600": {
+    "inside": false
+  },
+  "OBTAP|NAVA.NS|1 Month|2026-03-31 00:00:00+05:30|529.0000|589.0000": {
+    "last_tap_ts": "2026-09-14T03:41:24.096361+00:00",
+    "inside": true
+  },
+  "OBTAP|NAVA.NS|3 Month|2023-03-31 00:00:00+05:30|106.6500|139.7500": {
+    "inside": false
+  },
+  "OBTAP|NAVNETEDUL.NS|1 Month|2018-07-31 00:00:00+05:30|109.0000|130.0000": {
+    "last_tap_ts": "2026-09-14T03:41:27.759205+00:00",
+    "inside": true
+  },
+  "OBTAP|NAVNETEDUL.NS|3 Month|2016-09-30 00:00:00+05:30|97.0000|106.0000": {
+    "inside": false
+  },
+  "OBTAP|NBCC.NS|3 Month|2025-03-31 00:00:00+05:30|70.8000|104.1500": {
+    "last_tap_ts": "2026-09-14T03:41:30.086131+00:00",
+    "inside": true
+  },
+  "OBTAP|NDGL.NS|3 Month|2024-03-31 00:00:00+05:30|2012.6000|2899.0000": {
+    "last_tap_ts": "2026-09-14T03:41:33.728100+00:00",
+    "inside": true
+  },
+  "OBTAP|NDRAUTO.NS|3 Month|2025-03-31 00:00:00+05:30|551.0000|867.2000": {
+    "last_tap_ts": "2026-09-14T03:41:36.602439+00:00",
+    "inside": true
+  },
+  "OBTAP|NECCLTD.NS|1 Month|2022-02-28 00:00:00+05:30|15.6439|24.5304": {
+    "last_tap_ts": "2026-09-14T03:41:39.180572+00:00",
+    "inside": true
+  },
+  "OBTAP|NECCLTD.NS|1 Month|2026-03-31 00:00:00+05:30|10.6100|14.9500": {
+    "inside": false
+  },
+  "OBTAP|NECCLTD.NS|3 Month|2016-09-30 00:00:00+05:30|34.4814|39.6652": {
+    "inside": false
+  },
+  "OBTAP|NECCLTD.NS|3 Month|2021-03-31 00:00:00+05:30|6.9426|9.7196": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|1 Month|2020-03-31 00:00:00+05:30|7.1000|11.5000": {
+    "last_tap_ts": "2026-09-14T03:41:40.661886+00:00",
+    "inside": true
+  },
+  "OBTAP|NECLIFE.NS|1 Month|2020-05-31 00:00:00+05:30|11.8500|14.9500": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|1 Month|2020-11-30 00:00:00+05:30|16.1500|19.2000": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|1 Month|2021-03-31 00:00:00+05:30|18.4500|23.4000": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|1 Month|2023-10-31 00:00:00+05:30|21.5000|25.3000": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|3 Month|2017-09-30 00:00:00+05:30|23.8000|33.6000": {
+    "inside": false
+  },
+  "OBTAP|NECLIFE.NS|3 Month|2020-03-31 00:00:00+05:30|7.1000|15.2000": {
+    "last_tap_ts": "2026-09-14T03:41:41.222006+00:00",
+    "inside": true
+  },
+  "OBTAP|NECLIFE.NS|3 Month|2021-03-31 00:00:00+05:30|18.4500|24.9000": {
+    "inside": false
+  },
+  "OBTAP|NELCAST.NS|3 Month|2025-03-31 00:00:00+05:30|78.6600|129.3000": {
+    "last_tap_ts": "2026-09-14T03:41:42.692565+00:00",
+    "inside": true
+  },
+  "OBTAP|NESCO.NS|1 Month|2026-03-31 00:00:00+05:30|996.0000|1121.9000": {
+    "last_tap_ts": "2026-09-14T03:41:45.990449+00:00",
+    "inside": true
+  },
+  "OBTAP|NESCO.NS|3 Month|2018-12-31 00:00:00+05:30|403.5500|474.0000": {
+    "inside": false
+  },
+  "OBTAP|NESCO.NS|3 Month|2025-03-31 00:00:00+05:30|842.6000|1048.9500": {
+    "inside": false
+  },
+  "OBTAP|NETWORK18.NS|3 Month|2020-03-31 00:00:00+05:30|14.7000|32.0000": {
+    "last_tap_ts": "2026-09-14T03:41:48.845794+00:00",
+    "inside": true
+  },
+  "OBTAP|NEXTMEDIA.NS|1 Month|2020-05-31 00:00:00+05:30|3.4500|4.7000": {
+    "last_tap_ts": "2026-09-14T03:41:52.411381+00:00",
+    "inside": true
+  },
+  "OBTAP|NH.NS|1 Month|2025-05-31 00:00:00+05:30|1702.0000|1869.9000": {
+    "last_tap_ts": "2026-09-14T03:41:55.596607+00:00",
+    "inside": true
+  },
+  "OBTAP|NH.NS|3 Month|2019-09-30 00:00:00+05:30|200.0500|253.0000": {
+    "inside": false
+  },
+  "OBTAP|NIACL.NS|1 Month|2024-06-30 00:00:00+05:30|192.4500|263.2500": {
+    "last_tap_ts": "2026-09-14T03:41:57.824153+00:00",
+    "inside": true
+  },
+  "OBTAP|NIACL.NS|1 Month|2026-03-31 00:00:00+05:30|116.9700|144.0000": {
+    "inside": false
+  },
+  "OBTAP|NIACL.NS|3 Month|2020-09-30 00:00:00+05:30|101.0000|125.8000": {
+    "inside": false
+  },
+  "OBTAP|NIBL.NS|1 Month|2025-11-30 00:00:00+05:30|26.8100|33.5000": {
+    "last_tap_ts": "2026-09-14T03:41:59.831146+00:00",
+    "inside": true
+  },
+  "OBTAP|NILAINFRA.NS|1 Month|2022-10-31 00:00:00+05:30|6.1000|6.8000": {
+    "last_tap_ts": "2026-09-14T03:42:03.086737+00:00",
+    "inside": true
+  },
+  "OBTAP|NILAINFRA.NS|3 Month|2017-09-30 00:00:00+05:30|12.7277|17.0511": {
+    "inside": false
+  },
+  "OBTAP|NILKAMAL.NS|3 Month|2023-03-31 00:00:00+05:30|1700.0000|2085.1499": {
+    "last_tap_ts": "2026-09-14T03:42:05.838382+00:00",
+    "inside": true
+  },
+  "OBTAP|NITCO.NS|1 Month|2017-11-30 00:00:00+05:30|80.0500|93.8500": {
+    "last_tap_ts": "2026-09-14T03:42:10.811388+00:00",
+    "inside": true
+  },
+  "OBTAP|NITCO.NS|1 Month|2021-04-30 00:00:00+05:30|17.3500|20.7000": {
+    "inside": false
+  },
+  "OBTAP|NITCO.NS|1 Month|2024-09-30 00:00:00+05:30|80.2000|89.9800": {
+    "inside": false
+  },
+  "OBTAP|NIVABUPA.NS|1 Month|2024-11-30 00:00:00+05:30|69.2100|81.0000": {
+    "last_tap_ts": "2026-09-14T03:42:13.982638+00:00",
+    "inside": true
+  },
+  "OBTAP|NIVABUPA.NS|1 Month|2025-06-30 00:00:00+05:30|79.6400|85.8000": {
+    "last_tap_ts": "2026-09-14T03:42:14.544672+00:00",
+    "inside": true
+  },
+  "OBTAP|NSLNISP.NS|1 Month|2023-06-30 00:00:00+05:30|42.0000|46.5000": {
+    "last_tap_ts": "2026-09-14T03:42:24.244772+00:00",
+    "inside": true
+  },
+  "OBTAP|NSLNISP.NS|1 Month|2026-03-31 00:00:00+05:30|33.0100|41.1400": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|1 Month|2023-04-30 00:00:00+05:30|574.6500|699.6000": {
+    "last_tap_ts": "2026-09-14T03:42:27.714711+00:00",
+    "inside": true
+  },
+  "OBTAP|NUCLEUS.NS|1 Month|2023-09-30 00:00:00+05:30|962.0000|1120.0000": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|3 Month|2016-09-30 00:00:00+05:30|165.2000|192.5500": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|3 Month|2017-03-31 00:00:00+05:30|236.2000|299.9000": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|3 Month|2017-09-30 00:00:00+05:30|270.7500|324.9000": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|3 Month|2022-12-31 00:00:00+05:30|365.0000|419.2000": {
+    "inside": false
+  },
+  "OBTAP|NUCLEUS.NS|3 Month|2023-09-30 00:00:00+05:30|945.0000|1264.8500": {
+    "inside": false
+  },
+  "OBTAP|NURECA.NS|3 Month|2023-09-30 00:00:00+05:30|311.0000|383.7000": {
+    "last_tap_ts": "2026-09-14T03:42:29.285054+00:00",
+    "inside": true
+  },
+  "OBTAP|NUVOCO.NS|3 Month|2022-06-30 00:00:00+05:30|260.2500|399.6500": {
+    "last_tap_ts": "2026-09-14T03:42:31.365904+00:00",
+    "inside": true
+  },
+  "OBTAP|OLECTRA.NS|3 Month|2026-03-31 00:00:00+05:30|866.6000|1274.8000": {
+    "last_tap_ts": "2026-09-14T03:42:39.652128+00:00",
+    "inside": true
+  },
+  "OBTAP|ONESOURCE.NS|1 Month|2025-02-28 00:00:00+05:30|1211.5000|1599.7000": {
+    "last_tap_ts": "2026-09-14T03:42:46.289905+00:00",
+    "inside": true
+  },
+  "OBTAP|ONESOURCE.NS|1 Month|2025-04-30 00:00:00+05:30|1319.5000|1763.7000": {
+    "last_tap_ts": "2026-09-14T03:42:46.837470+00:00",
+    "inside": true
+  },
+  "OBTAP|ONGC.NS|1 Month|2024-06-30 00:00:00+05:30|223.0000|286.5500": {
+    "last_tap_ts": "2026-09-14T03:42:48.324576+00:00",
+    "inside": true
+  },
+  "OBTAP|ONGC.NS|1 Month|2025-12-31 00:00:00+05:30|228.6100|246.2600": {
+    "last_tap_ts": "2026-09-14T03:42:48.865229+00:00",
+    "inside": true
+  },
+  "OBTAP|ONIDA.NS|3 Month|2026-03-31 00:00:00+05:30|22.6800|37.4000": {
+    "last_tap_ts": "2026-09-14T03:42:50.352450+00:00",
+    "inside": true
+  },
+  "OBTAP|ONWARDTEC.NS|3 Month|2023-03-31 00:00:00+05:30|271.0000|349.5000": {
+    "last_tap_ts": "2026-09-14T03:42:53.064760+00:00",
+    "inside": true
+  },
+  "OBTAP|ORIENTALTL.NS|3 Month|2020-03-31 00:00:00+05:30|4.6000|11.9000": {
+    "last_tap_ts": "2026-09-14T03:42:58.037866+00:00",
+    "inside": true
+  },
+  "OBTAP|ORIENTBELL.NS|3 Month|2021-12-31 00:00:00+05:30|323.5500|402.0000": {
+    "last_tap_ts": "2026-09-14T03:42:59.505104+00:00",
+    "inside": true
+  },
+  "OBTAP|ORIENTCEM.NS|1 Month|2017-03-31 00:00:00+05:30|124.6500|156.5000": {
+    "last_tap_ts": "2026-09-14T03:43:01.026075+00:00",
+    "inside": true
+  },
+  "OBTAP|ORIENTCEM.NS|1 Month|2021-06-30 00:00:00+05:30|122.6000|143.0500": {
+    "last_tap_ts": "2026-09-14T03:43:01.579428+00:00",
+    "inside": true
+  },
+  "OBTAP|ORIENTCEM.NS|1 Month|2024-05-31 00:00:00+05:30|205.2500|233.6000": {
+    "inside": false
+  },
+  "OBTAP|ORIENTCEM.NS|3 Month|2019-03-31 00:00:00+05:30|62.1500|92.4000": {
+    "inside": false
+  },
+  "OBTAP|ORIENTLTD.NS|1 Month|2017-08-31 00:00:00+05:30|71.0000|89.9000": {
+    "last_tap_ts": "2026-09-14T03:43:05.109920+00:00",
+    "inside": true
+  },
+  "OBTAP|ORISSAMINE.NS|1 Month|2026-03-31 00:00:00+05:30|3100.5000|4071.3000": {
+    "last_tap_ts": "2026-09-14T03:43:08.212516+00:00",
+    "inside": true
+  },
+  "OBTAP|ORISSAMINE.NS|3 Month|2021-03-31 00:00:00+05:30|2223.5000|2755.0000": {
+    "inside": false
+  },
+  "OBTAP|ORTINGLOBE.NS|1 Month|2016-09-30 00:00:00+05:30|16.7750|20.6800": {
+    "last_tap_ts": "2026-09-14T03:43:10.128382+00:00",
+    "inside": true
+  },
+  "OBTAP|ORTINGLOBE.NS|1 Month|2020-03-31 00:00:00+05:30|7.4800|9.9000": {
+    "inside": false
+  },
+  "OBTAP|ORTINGLOBE.NS|1 Month|2020-05-31 00:00:00+05:30|11.3300|16.3900": {
+    "inside": false
+  },
+  "OBTAP|ORTINGLOBE.NS|1 Month|2021-05-31 00:00:00+05:30|27.0000|33.0000": {
+    "inside": false
+  },
+  "OBTAP|ORTINGLOBE.NS|1 Month|2026-01-31 00:00:00+05:30|11.9000|14.3500": {
+    "inside": false
+  },
+  "OBTAP|ORTINGLOBE.NS|3 Month|2016-09-30 00:00:00+05:30|16.7750|20.6800": {
+    "last_tap_ts": "2026-09-14T03:43:10.706188+00:00",
+    "inside": true
+  },
+  "OBTAP|OSWALSEEDS.NS|1 Month|2022-08-31 00:00:00+05:30|12.5000|18.7583": {
+    "last_tap_ts": "2026-09-14T03:43:14.525387+00:00",
+    "inside": true
+  },
+  "OBTAP|OSWALSEEDS.NS|3 Month|2019-06-30 00:00:00+05:30|4.1667|4.7417": {
+    "inside": false
+  },
+  "OBTAP|OSWALSEEDS.NS|3 Month|2020-03-31 00:00:00+05:30|3.8333|5.0417": {
+    "inside": false
+  },
+  "OBTAP|PAGEIND.NS|3 Month|2026-03-31 00:00:00+05:30|29805.0000|36295.0000": {
+    "last_tap_ts": "2026-09-14T03:43:16.974594+00:00",
+    "inside": true
+  },
+  "OBTAP|PALASHSECU.NS|1 Month|2022-01-31 00:00:00+05:30|79.0000|91.8000": {
+    "last_tap_ts": "2026-09-14T03:43:19.757591+00:00",
+    "inside": true
+  },
+  "OBTAP|PALASHSECU.NS|3 Month|2022-09-30 00:00:00+05:30|84.3000|97.0000": {
+    "last_tap_ts": "2026-09-14T03:43:20.299355+00:00",
+    "inside": true
+  },
+  "OBTAP|RATNAMANI.NS|1 Month|2016-09-30 00:00:00+05:30|360.0000|390.5333": {
+    "inside": false
+  },
+  "OBTAP|RATNAMANI.NS|3 Month|2016-09-30 00:00:00+05:30|360.0000|390.5333": {
+    "inside": false
+  },
+  "OBTAP|RBLBANK.NS|1 Month|2016-09-30 00:00:00+05:30|281.5500|307.9500": {
+    "inside": false
+  },
+  "OBTAP|RBLBANK.NS|3 Month|2016-09-30 00:00:00+05:30|281.5500|307.9500": {
+    "inside": false
+  },
+  "OBTAP|REGENCERAM.NS|1 Month|2016-09-30 00:00:00+05:30|3.7000|4.0000": {
+    "inside": false
+  },
+  "OBTAP|REGENCERAM.NS|3 Month|2016-09-30 00:00:00+05:30|3.7000|4.0000": {
+    "inside": false
+  },
+  "OBTAP|RGL.NS|1 Month|2016-09-30 00:00:00+05:30|26.2100|29.9800": {
+    "inside": false
+  },
+  "OBTAP|RUCHIRA.NS|1 Month|2016-09-30 00:00:00+05:30|70.9091|79.0909": {
+    "inside": false
+  },
+  "OBTAP|RUCHIRA.NS|3 Month|2016-09-30 00:00:00+05:30|70.9091|79.0909": {
+    "inside": false
+  },
+  "OBTAP|SAIL.NS|1 Month|2016-09-30 00:00:00+05:30|44.1500|49.4000": {
+    "inside": false
+  },
+  "OBTAP|SALSTEEL.NS|1 Month|2016-09-30 00:00:00+05:30|2.7000|3.2000": {
+    "inside": false
+  },
+  "OBTAP|SALSTEEL.NS|3 Month|2016-09-30 00:00:00+05:30|2.7000|3.2000": {
+    "inside": false
+  },
+  "OBTAP|SASKEN.NS|1 Month|2016-09-30 00:00:00+05:30|324.0000|360.5000": {
+    "inside": false
+  },
+  "OBTAP|SASKEN.NS|3 Month|2016-09-30 00:00:00+05:30|324.0000|360.5000": {
+    "inside": false
+  },
+  "OBTAP|SESHAPAPER.NS|1 Month|2016-09-30 00:00:00+05:30|90.0000|103.4000": {
+    "inside": false
+  },
+  "OBTAP|SESHAPAPER.NS|3 Month|2016-09-30 00:00:00+05:30|90.0000|103.4000": {
+    "inside": false
+  },
+  "OBTAP|SHAH.NS|1 Month|2022-03-31 00:00:00+05:30|2.8550|3.8066": {
+    "last_tap_ts": "2026-09-14T03:47:00.018711+00:00",
+    "inside": true
+  },
+  "OBTAP|SHAH.NS|3 Month|2021-09-30 00:00:00+05:30|1.7792|2.7722": {
+    "inside": false
+  },
+  "OBTAP|SHALBY.NS|1 Month|2023-05-31 00:00:00+05:30|135.0000|152.5000": {
+    "last_tap_ts": "2026-09-14T03:47:03.582144+00:00",
+    "inside": true
+  },
+  "OBTAP|SHALBY.NS|1 Month|2023-09-30 00:00:00+05:30|225.8000|261.6500": {
+    "inside": false
+  },
+  "OBTAP|SHALBY.NS|1 Month|2025-08-31 00:00:00+05:30|188.3000|214.5000": {
+    "inside": false
+  },
+  "OBTAP|SHALBY.NS|3 Month|2021-03-31 00:00:00+05:30|96.1000|134.6000": {
+    "inside": false
+  },
+  "OBTAP|SHALBY.NS|3 Month|2025-06-30 00:00:00+05:30|177.2500|213.9900": {
+    "inside": false
+  },
+  "OBTAP|SHALPAINTS.NS|1 Month|2021-04-30 00:00:00+05:30|83.0000|99.5000": {
+    "last_tap_ts": "2026-09-14T03:47:05.299978+00:00",
+    "inside": true
+  },
+  "OBTAP|SHALPAINTS.NS|1 Month|2023-09-30 00:00:00+05:30|152.0500|167.9500": {
+    "inside": false
+  },
+  "OBTAP|SHALPAINTS.NS|1 Month|2026-06-30 00:00:00+05:30|47.0000|55.4800": {
+    "inside": false
+  },
+  "OBTAP|SHARDAMOTR.NS|1 Month|2023-10-31 00:00:00+05:30|864.6000|1005.0000": {
+    "last_tap_ts": "2026-09-14T03:47:10.492484+00:00",
+    "inside": true
+  },
+  "OBTAP|SHARDAMOTR.NS|3 Month|2016-12-31 00:00:00+05:30|188.4495|272.7751": {
+    "inside": false
+  },
+  "OBTAP|SHARDAMOTR.NS|3 Month|2020-09-30 00:00:00+05:30|140.2000|230.0000": {
+    "inside": false
+  },
+  "OBTAP|SHARDAMOTR.NS|3 Month|2021-03-31 00:00:00+05:30|357.0200|504.0000": {
+    "inside": false
+  },
+  "OBTAP|SHAREINDIA.NS|3 Month|2023-03-31 00:00:00+05:30|198.1200|255.4931": {
+    "last_tap_ts": "2026-09-14T03:47:12.834924+00:00",
+    "inside": true
+  },
+  "OBTAP|SHAREINDIA.NS|3 Month|2023-09-30 00:00:00+05:30|234.0000|290.2000": {
+    "inside": false
+  },
+  "OBTAP|SHEKHAWATI.NS|1 Month|2024-03-31 00:00:00+05:30|17.0000|22.0000": {
+    "last_tap_ts": "2026-09-14T03:47:14.872302+00:00",
+    "inside": true
+  },
+  "OBTAP|SHEKHAWATI.NS|1 Month|2026-03-31 00:00:00+05:30|9.1200|13.5000": {
+    "inside": false
+  },
+  "OBTAP|SHEKHAWATI.NS|3 Month|2021-03-31 00:00:00+05:30|3.5000|5.0000": {
+    "inside": false
+  },
+  "OBTAP|SHEMAROO.NS|1 Month|2021-08-31 00:00:00+05:30|100.2000|140.0000": {
+    "last_tap_ts": "2026-09-14T03:47:16.512451+00:00",
+    "inside": true
+  },
+  "OBTAP|SHEMAROO.NS|1 Month|2023-12-31 00:00:00+05:30|146.3500|181.2000": {
+    "inside": false
+  },
+  "OBTAP|SHEMAROO.NS|3 Month|2016-09-30 00:00:00+05:30|265.7000|345.0000": {
+    "inside": false
+  },
+  "OBTAP|SHEMAROO.NS|3 Month|2017-09-30 00:00:00+05:30|331.0000|397.0000": {
+    "inside": false
+  },
+  "OBTAP|SHILPAMED.NS|1 Month|2016-09-30 00:00:00+05:30|258.5000|289.9500": {
+    "inside": false
+  },
+  "OBTAP|SHILPAMED.NS|3 Month|2016-09-30 00:00:00+05:30|258.5000|289.9500": {
+    "inside": false
+  },
+  "OBTAP|SHIVAMILLS.NS|1 Month|2023-03-31 00:00:00+05:30|60.6500|88.9000": {
+    "last_tap_ts": "2026-09-14T03:47:23.875568+00:00",
+    "inside": true
+  },
+  "OBTAP|SHIVAMILLS.NS|3 Month|2020-09-30 00:00:00+05:30|19.9500|28.6000": {
+    "inside": false
+  },
+  "OBTAP|SHIVAMILLS.NS|3 Month|2021-09-30 00:00:00+05:30|71.5500|114.3000": {
+    "inside": false
+  },
+  "OBTAP|SHIVATEX.NS|1 Month|2021-06-30 00:00:00+05:30|166.7000|211.5000": {
+    "last_tap_ts": "2026-09-14T03:47:25.573835+00:00",
+    "inside": true
+  },
+  "OBTAP|SHIVATEX.NS|1 Month|2026-03-31 00:00:00+05:30|126.0600|159.0200": {
+    "inside": false
+  },
+  "OBTAP|SHK.NS|3 Month|2021-03-31 00:00:00+05:30|106.0000|141.4000": {
+    "last_tap_ts": "2026-09-14T03:47:27.679187+00:00",
+    "inside": true
+  },
+  "OBTAP|SHK.NS|3 Month|2023-12-31 00:00:00+05:30|128.6000|168.0000": {
+    "last_tap_ts": "2026-09-14T03:47:28.245825+00:00",
+    "inside": true
+  },
+  "OBTAP|SHK.NS|3 Month|2024-06-30 00:00:00+05:30|171.0000|232.0000": {
+    "inside": false
+  },
+  "OBTAP|SHOPERSTOP.NS|1 Month|2022-02-28 00:00:00+05:30|302.4500|387.2000": {
+    "last_tap_ts": "2026-09-14T03:47:30.216764+00:00",
+    "inside": true
+  },
+  "OBTAP|SHOPERSTOP.NS|3 Month|2017-06-30 00:00:00+05:30|270.7692|367.2899": {
+    "inside": false
+  },
+  "OBTAP|SHOPERSTOP.NS|3 Month|2023-03-31 00:00:00+05:30|606.0000|739.0000": {
+    "inside": false
+  },
+  "OBTAP|SHREYANIND.NS|1 Month|2022-09-30 00:00:00+05:30|117.5000|141.6500": {
+    "last_tap_ts": "2026-09-14T03:47:36.409765+00:00",
+    "inside": true
+  },
+  "OBTAP|SHREYANIND.NS|1 Month|2026-03-31 00:00:00+05:30|122.0000|164.8000": {
+    "last_tap_ts": "2026-09-14T03:47:36.961345+00:00",
+    "inside": true
+  },
+  "OBTAP|SHREYANIND.NS|3 Month|2023-03-31 00:00:00+05:30|129.6000|178.2000": {
+    "last_tap_ts": "2026-09-14T03:47:37.525826+00:00",
+    "inside": true
+  },
+  "OBTAP|SHRIRAMPPS.NS|1 Month|2026-03-31 00:00:00+05:30|60.5700|79.3500": {
+    "last_tap_ts": "2026-09-14T03:47:41.613880+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMCENT.NS|1 Month|2026-03-31 00:00:00+05:30|3.6800|5.2900": {
+    "last_tap_ts": "2026-09-14T03:47:44.174075+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMCENT.NS|3 Month|2017-09-30 00:00:00+05:30|7.8500|10.5000": {
+    "inside": false
+  },
+  "OBTAP|SHYAMCENT.NS|3 Month|2021-03-31 00:00:00+05:30|5.0000|7.7000": {
+    "inside": false
+  },
+  "OBTAP|SHYAMTEL.NS|1 Month|2022-03-31 00:00:00+05:30|8.5500|12.6500": {
+    "last_tap_ts": "2026-09-14T03:47:46.403758+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMTEL.NS|1 Month|2024-03-31 00:00:00+05:30|8.8000|13.2000": {
+    "last_tap_ts": "2026-09-14T03:47:46.975504+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMTEL.NS|1 Month|2024-09-30 00:00:00+05:30|12.6500|15.6000": {
+    "inside": false
+  },
+  "OBTAP|SHYAMTEL.NS|1 Month|2026-03-31 00:00:00+05:30|7.0700|10.7700": {
+    "inside": false
+  },
+  "OBTAP|SHYAMTEL.NS|3 Month|2017-12-31 00:00:00+05:30|8.9000|16.5000": {
+    "last_tap_ts": "2026-09-14T03:47:47.652209+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMTEL.NS|3 Month|2024-03-31 00:00:00+05:30|8.8000|13.5000": {
+    "last_tap_ts": "2026-09-14T03:47:48.208595+00:00",
+    "inside": true
+  },
+  "OBTAP|SHYAMTEL.NS|3 Month|2026-03-31 00:00:00+05:30|7.0700|12.6800": {
+    "last_tap_ts": "2026-09-14T03:47:48.771345+00:00",
+    "inside": true
+  },
+  "OBTAP|SIGACHI.NS|1 Month|2023-10-31 00:00:00+05:30|36.4000|43.9000": {
+    "last_tap_ts": "2026-09-14T03:47:52.700023+00:00",
+    "inside": true
+  },
+  "OBTAP|SIGACHI.NS|1 Month|2023-12-31 00:00:00+05:30|48.5500|55.6500": {
+    "inside": false
+  },
+  "OBTAP|SILVERTUC.NS|3 Month|2021-12-31 00:00:00+05:30|142.0000|183.5500": {
+    "last_tap_ts": "2026-09-14T03:48:00.343390+00:00",
+    "inside": true
+  },
+  "OBTAP|SILVERTUC.NS|3 Month|2025-09-30 00:00:00+05:30|661.8500|807.7000": {
+    "inside": false
+  },
+  "OBTAP|SIMBHALS.NS|1 Month|2020-07-31 00:00:00+05:30|6.2000|7.9000": {
+    "last_tap_ts": "2026-09-14T03:48:01.857861+00:00",
+    "inside": true
+  },
+  "OBTAP|SIMBHALS.NS|1 Month|2026-03-31 00:00:00+05:30|6.5300|9.1400": {
+    "last_tap_ts": "2026-09-14T03:48:02.418100+00:00",
+    "inside": true
+  },
+  "OBTAP|SIMBHALS.NS|3 Month|2021-03-31 00:00:00+05:30|6.4000|8.8500": {
+    "last_tap_ts": "2026-09-14T03:48:02.979252+00:00",
+    "inside": true
+  },
+  "OBTAP|SIMPLEXINF.NS|1 Month|2025-02-28 00:00:00+05:30|251.6000|303.0000": {
+    "last_tap_ts": "2026-09-14T03:48:04.647976+00:00",
+    "inside": true
+  },
+  "OBTAP|SIMPLEXINF.NS|1 Month|2026-03-31 00:00:00+05:30|137.0000|204.9900": {
+    "inside": false
+  },
+  "OBTAP|SIMPLEXINF.NS|3 Month|2017-09-30 00:00:00+05:30|431.6000|569.1000": {
+    "inside": false
+  },
+  "OBTAP|SIMPLEXINF.NS|3 Month|2026-03-31 00:00:00+05:30|137.0000|263.6700": {
+    "last_tap_ts": "2026-09-14T03:48:05.212614+00:00",
+    "inside": true
+  },
+  "OBTAP|SINDHUTRAD.NS|1 Month|2023-06-30 00:00:00+05:30|22.0000|25.0000": {
+    "last_tap_ts": "2026-09-14T03:48:07.725967+00:00",
+    "inside": true
+  },
+  "OBTAP|SINDHUTRAD.NS|1 Month|2023-10-31 00:00:00+05:30|21.6500|27.5500": {
+    "last_tap_ts": "2026-09-14T03:48:08.276395+00:00",
+    "inside": true
+  },
+  "OBTAP|SINTERCOM.NS|1 Month|2018-03-31 00:00:00+05:30|69.1000|76.7000": {
+    "last_tap_ts": "2026-09-14T03:48:10.255930+00:00",
+    "inside": true
+  },
+  "OBTAP|SINTERCOM.NS|1 Month|2018-06-30 00:00:00+05:30|64.0000|74.1000": {
+    "inside": false
+  },
+  "OBTAP|SINTERCOM.NS|1 Month|2018-10-31 00:00:00+05:30|49.0500|64.8000": {
+    "inside": false
+  },
+  "OBTAP|SINTERCOM.NS|1 Month|2019-01-31 00:00:00+05:30|57.0000|63.0000": {
+    "inside": false
+  },
+  "OBTAP|SINTERCOM.NS|3 Month|2018-12-31 00:00:00+05:30|49.0500|69.0000": {
+    "inside": false
+  },
+  "OBTAP|SINTERCOM.NS|3 Month|2024-06-30 00:00:00+05:30|122.0000|143.0000": {
+    "inside": false
+  },
+  "OBTAP|SIS.NS|1 Month|2023-10-31 00:00:00+05:30|400.0000|485.5000": {
+    "last_tap_ts": "2026-09-14T03:48:12.378412+00:00",
+    "inside": true
+  },
+  "OBTAP|SIS.NS|1 Month|2026-03-31 00:00:00+05:30|257.0500|309.5000": {
+    "inside": false
+  },
+  "OBTAP|SIS.NS|3 Month|2017-09-30 00:00:00+05:30|352.5500|439.9000": {
+    "last_tap_ts": "2026-09-14T03:48:12.923626+00:00",
+    "inside": true
+  },
+  "OBTAP|SIS.NS|3 Month|2019-09-30 00:00:00+05:30|373.7750|474.9000": {
+    "last_tap_ts": "2026-09-14T03:48:13.513131+00:00",
+    "inside": true
+  },
+  "OBTAP|SIS.NS|3 Month|2026-03-31 00:00:00+05:30|257.0500|359.0000": {
+    "inside": false
+  },
+  "OBTAP|SIYSIL.NS|3 Month|2024-09-30 00:00:00+05:30|465.2500|550.2000": {
+    "last_tap_ts": "2026-09-14T03:48:15.822568+00:00",
+    "inside": true
+  },
+  "OBTAP|SJVN.NS|1 Month|2023-10-31 00:00:00+05:30|63.4000|77.7000": {
+    "last_tap_ts": "2026-09-14T03:48:18.051613+00:00",
+    "inside": true
+  },
+  "OBTAP|SJVN.NS|1 Month|2026-03-31 00:00:00+05:30|63.0200|73.8100": {
+    "last_tap_ts": "2026-09-14T03:48:18.605999+00:00",
+    "inside": true
+  },
+  "OBTAP|SJVN.NS|3 Month|2023-03-31 00:00:00+05:30|30.4000|35.7000": {
+    "inside": false
+  },
+  "OBTAP|SKFINDIA.NS|3 Month|2016-12-31 00:00:00+05:30|1190.5000|1550.0000": {
+    "last_tap_ts": "2026-09-14T03:48:20.158302+00:00",
+    "inside": true
+  },
+  "OBTAP|SKFINDIA.NS|3 Month|2017-09-30 00:00:00+05:30|1477.0000|1698.0000": {
+    "last_tap_ts": "2026-09-14T03:48:20.696414+00:00",
+    "inside": true
+  },
+  "OBTAP|SKFINDIA.NS|3 Month|2018-09-30 00:00:00+05:30|1600.5000|1820.0000": {
+    "inside": false
+  },
+  "OBTAP|SKFINDIA.NS|3 Month|2024-03-31 00:00:00+05:30|4024.5000|4820.0000": {
+    "inside": false
+  },
+  "OBTAP|TARAPUR.NS|3 Month|2016-09-30 00:00:00+05:30|4.7500|5.5000": {
+    "inside": false
+  },
+  "OBTAP|TBZ.NS|1 Month|2016-09-30 00:00:00+05:30|63.0000|74.1000": {
+    "inside": false
+  },
+  "OBTAP|TCIFINANCE.NS|1 Month|2016-09-30 00:00:00+05:30|18.3000|21.9000": {
+    "inside": false
+  },
+  "OBTAP|TCIFINANCE.NS|3 Month|2016-09-30 00:00:00+05:30|18.3000|21.9000": {
+    "inside": false
+  },
+  "OBTAP|URJA.NS|1 Month|2023-10-31 00:00:00+05:30|8.8000|10.6000": {
+    "last_tap_ts": "2026-09-14T03:51:33.853542+00:00",
+    "inside": true
+  },
+  "OBTAP|URJA.NS|1 Month|2026-03-31 00:00:00+05:30|8.0000|9.4000": {
+    "last_tap_ts": "2026-09-14T03:51:34.410753+00:00",
+    "inside": true
+  },
+  "OBTAP|URJA.NS|3 Month|2020-03-31 00:00:00+05:30|0.8615|1.8188": {
+    "inside": false
+  },
+  "OBTAP|URJA.NS|3 Month|2020-09-30 00:00:00+05:30|2.2495|4.6426": {
+    "inside": false
+  },
+  "OBTAP|URJA.NS|3 Month|2021-09-30 00:00:00+05:30|5.9500|8.1000": {
+    "inside": false
+  },
+  "OBTAP|UTIAMC.NS|1 Month|2022-02-28 00:00:00+05:30|720.5000|912.4500": {
+    "last_tap_ts": "2026-09-14T03:51:37.221206+00:00",
+    "inside": true
+  },
+  "OBTAP|UTIAMC.NS|1 Month|2024-03-31 00:00:00+05:30|802.0000|913.7000": {
+    "last_tap_ts": "2026-09-14T03:51:37.763175+00:00",
+    "inside": true
+  },
+  "OBTAP|UTIAMC.NS|3 Month|2023-09-30 00:00:00+05:30|731.2000|860.0000": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|1 Month|2023-05-31 00:00:00+05:30|252.0000|291.2000": {
+    "last_tap_ts": "2026-09-14T03:51:40.257734+00:00",
+    "inside": true
+  },
+  "OBTAP|UTTAMSUGAR.NS|1 Month|2025-02-28 00:00:00+05:30|183.1000|228.0000": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|1 Month|2026-02-28 00:00:00+05:30|185.3100|227.1200": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|1 Month|2026-07-31 00:00:00+05:30|219.4200|251.5000": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|3 Month|2016-12-31 00:00:00+05:30|39.1000|61.7000": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|3 Month|2021-03-31 00:00:00+05:30|87.4000|114.0000": {
+    "inside": false
+  },
+  "OBTAP|UTTAMSUGAR.NS|3 Month|2023-03-31 00:00:00+05:30|216.0000|321.7000": {
+    "last_tap_ts": "2026-09-14T03:51:40.822720+00:00",
+    "inside": true
+  },
+  "OBTAP|VAIBHAVGBL.NS|3 Month|2020-03-31 00:00:00+05:30|110.2700|239.8000": {
+    "last_tap_ts": "2026-09-14T03:51:44.738628+00:00",
+    "inside": true
+  },
+  "OBTAP|VAKRANGEE.NS|1 Month|2026-03-31 00:00:00+05:30|4.6100|6.3700": {
+    "last_tap_ts": "2026-09-14T03:51:46.925354+00:00",
+    "inside": true
+  },
+  "OBTAP|VARDHACRLC.NS|3 Month|2017-09-30 00:00:00+05:30|42.9000|50.9500": {
+    "last_tap_ts": "2026-09-14T03:51:50.048078+00:00",
+    "inside": true
+  },
+  "OBTAP|VARDHACRLC.NS|3 Month|2026-03-31 00:00:00+05:30|27.0100|40.4900": {
+    "inside": false
+  },
+  "OBTAP|VARDMNPOLY.NS|1 Month|2023-12-31 00:00:00+05:30|5.4700|6.4400": {
+    "last_tap_ts": "2026-09-14T03:51:51.435887+00:00",
+    "inside": true
+  },
+  "OBTAP|VARDMNPOLY.NS|3 Month|2023-12-31 00:00:00+05:30|4.8900|6.6500": {
+    "last_tap_ts": "2026-09-14T03:51:52.030913+00:00",
+    "inside": true
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2016-09-30 00:00:00+05:30|29.7000|37.2500": {
+    "last_tap_ts": "2026-09-14T03:51:54.001315+00:00",
+    "inside": true
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2016-12-31 00:00:00+05:30|26.3500|33.0000": {
+    "last_tap_ts": "2026-09-14T03:51:54.541430+00:00",
+    "inside": true
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2020-10-31 00:00:00+05:30|8.2000|9.4000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2021-01-31 00:00:00+05:30|13.2500|16.4500": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2021-11-30 00:00:00+05:30|21.0000|27.9000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2023-07-31 00:00:00+05:30|41.6500|47.7000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2023-09-30 00:00:00+05:30|50.5000|62.9000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2023-12-31 00:00:00+05:30|67.0000|78.4000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2025-08-31 00:00:00+05:30|47.8600|57.0000": {
+    "inside": false
+  },
+  "OBTAP|VASCONEQ.NS|1 Month|2026-03-31 00:00:00+05:30|26.7500|37.9300": {
+    "last_tap_ts": "2026-09-14T03:51:55.231356+00:00",
+    "inside": true
+  },
+  "OBTAP|VASCONEQ.NS|3 Month|2017-09-30 00:00:00+05:30|27.0000|41.1500": {
+    "last_tap_ts": "2026-09-14T03:51:55.798599+00:00",
+    "inside": true
+  },
+  "OBTAP|VASCONEQ.NS|3 Month|2023-03-31 00:00:00+05:30|23.8500|36.7000": {
+    "last_tap_ts": "2026-09-14T03:51:56.331160+00:00",
+    "inside": true
+  },
+  "OBTAP|VBL.NS|1 Month|2026-03-31 00:00:00+05:30|381.0000|455.7500": {
+    "last_tap_ts": "2026-09-14T03:51:58.944527+00:00",
+    "inside": true
+  },
+  "OBTAP|VBL.NS|3 Month|2017-09-30 00:00:00+05:30|28.2133|33.9793": {
+    "inside": false
+  },
+  "OBTAP|VBL.NS|3 Month|2019-09-30 00:00:00+05:30|45.8904|59.9111": {
+    "inside": false
+  },
+  "OBTAP|VEDL.NS|1 Month|2021-06-30 00:00:00+05:30|242.5000|282.7500": {
+    "last_tap_ts": "2026-09-14T03:52:01.653649+00:00",
+    "inside": true
+  },
+  "OBTAP|VEDL.NS|1 Month|2022-01-31 00:00:00+05:30|307.2000|357.4000": {
+    "inside": false
+  },
+  "OBTAP|VEDL.NS|3 Month|2017-06-30 00:00:00+05:30|217.7500|277.5000": {
+    "last_tap_ts": "2026-09-14T03:52:02.212931+00:00",
+    "inside": true
+  },
+  "OBTAP|VEEDOL.NS|1 Month|2024-03-31 00:00:00+05:30|1360.1000|1683.8500": {
+    "last_tap_ts": "2026-09-14T03:52:04.166965+00:00",
+    "inside": true
+  },
+  "OBTAP|VEEDOL.NS|1 Month|2024-05-31 00:00:00+05:30|1734.0000|1990.7000": {
+    "inside": false
+  },
+  "OBTAP|VEEDOL.NS|3 Month|2021-03-31 00:00:00+05:30|850.0000|1010.0000": {
+    "inside": false
+  },
+  "OBTAP|VEEDOL.NS|3 Month|2024-03-31 00:00:00+05:30|1313.6000|1834.7500": {
+    "last_tap_ts": "2026-09-14T03:52:04.737507+00:00",
+    "inside": true
+  },
+  "OBTAP|VENKEYS.NS|3 Month|2021-03-31 00:00:00+05:30|1495.1000|1825.0000": {
+    "last_tap_ts": "2026-09-14T03:52:06.700908+00:00",
+    "inside": true
+  },
+  "OBTAP|VERTOZ.NS|1 Month|2026-03-31 00:00:00+05:30|27.0200|46.9200": {
+    "last_tap_ts": "2026-09-14T03:52:10.441927+00:00",
+    "inside": true
+  },
+  "OBTAP|VESUVIUS.NS|1 Month|2016-09-30 00:00:00+05:30|95.8700|106.0000": {
+    "inside": false
+  },
+  "OBTAP|VESUVIUS.NS|3 Month|2016-09-30 00:00:00+05:30|95.8700|106.0000": {
+    "inside": false
+  },
+  "OBTAP|VETO.NS|1 Month|2016-12-31 00:00:00+05:30|124.0000|139.0000": {
+    "last_tap_ts": "2026-09-14T03:52:12.652999+00:00",
+    "inside": true
+  },
+  "OBTAP|VETO.NS|1 Month|2017-02-28 00:00:00+05:30|127.0000|148.3000": {
+    "inside": false
+  },
+  "OBTAP|VETO.NS|1 Month|2018-03-31 00:00:00+05:30|178.5000|224.9000": {
+    "inside": false
+  },
+  "OBTAP|VETO.NS|1 Month|2020-10-31 00:00:00+05:30|40.3000|48.0000": {
+    "inside": false
+  },
+  "OBTAP|VHL.NS|3 Month|2017-09-30 00:00:00+05:30|2916.0000|3800.0000": {
+    "last_tap_ts": "2026-09-14T03:52:15.960399+00:00",
+    "inside": true
+  },
+  "OBTAP|VHL.NS|3 Month|2024-03-31 00:00:00+05:30|2705.6499|3540.0000": {
+    "last_tap_ts": "2026-09-14T03:52:16.524553+00:00",
+    "inside": true
+  },
+  "OBTAP|VIKASLIFE.NS|1 Month|2026-03-31 00:00:00+05:30|1.0500|1.4500": {
+    "last_tap_ts": "2026-09-14T03:52:22.138907+00:00",
+    "inside": true
+  },
+  "OBTAP|VIKASLIFE.NS|3 Month|2020-03-31 00:00:00+05:30|0.9988|2.8299": {
+    "last_tap_ts": "2026-09-14T03:52:22.692233+00:00",
+    "inside": true
+  },
+  "OBTAP|VINYLINDIA.NS|1 Month|2021-09-30 00:00:00+05:30|211.1000|239.6000": {
+    "last_tap_ts": "2026-09-14T03:52:28.916961+00:00",
+    "inside": true
+  },
+  "OBTAP|VINYLINDIA.NS|1 Month|2023-03-31 00:00:00+05:30|317.0000|388.9500": {
+    "inside": false
+  },
+  "OBTAP|VINYLINDIA.NS|1 Month|2026-03-31 00:00:00+05:30|161.0000|209.9000": {
+    "inside": false
+  },
+  "OBTAP|VINYLINDIA.NS|3 Month|2020-03-31 00:00:00+05:30|36.8000|71.9500": {
+    "inside": false
+  },
+  "OBTAP|VIPIND.NS|1 Month|2018-03-31 00:00:00+05:30|287.1000|356.0000": {
+    "last_tap_ts": "2026-09-14T03:52:31.200236+00:00",
+    "inside": true
+  },
+  "OBTAP|VIPIND.NS|1 Month|2020-10-31 00:00:00+05:30|270.0000|299.0000": {
+    "inside": false
+  },
+  "OBTAP|VIPIND.NS|3 Month|2016-12-31 00:00:00+05:30|112.1000|157.0000": {
+    "inside": false
+  },
+  "OBTAP|VIPIND.NS|3 Month|2017-06-30 00:00:00+05:30|176.3500|217.0000": {
+    "inside": false
+  },
+  "OBTAP|VIPIND.NS|3 Month|2018-03-31 00:00:00+05:30|287.1000|393.9500": {
+    "last_tap_ts": "2026-09-14T03:52:31.755113+00:00",
+    "inside": true
+  },
+  "OBTAP|VISACHROME.NS|1 Month|2025-08-31 00:00:00+05:30|30.4000|35.8000": {
+    "last_tap_ts": "2026-09-14T03:52:35.517547+00:00",
+    "inside": true
+  },
+  "OBTAP|VISACHROME.NS|1 Month|2026-03-31 00:00:00+05:30|27.4000|38.4800": {
+    "last_tap_ts": "2026-09-14T03:52:36.054696+00:00",
+    "inside": true
+  },
+  "OBTAP|VISACHROME.NS|3 Month|2016-09-30 00:00:00+05:30|13.9000|16.7500": {
+    "inside": false
+  },
+  "OBTAP|VISAKAIND.NS|1 Month|2023-12-31 00:00:00+05:30|82.5000|94.5500": {
+    "last_tap_ts": "2026-09-14T03:52:37.649973+00:00",
+    "inside": true
+  },
+  "OBTAP|VISAKAIND.NS|1 Month|2026-03-31 00:00:00+05:30|50.2000|61.0000": {
+    "inside": false
+  },
+  "OBTAP|VISAKAIND.NS|3 Month|2016-12-31 00:00:00+05:30|34.4500|47.8800": {
+    "inside": false
+  },
+  "OBTAP|VIVIDHA.NS|3 Month|2020-09-30 00:00:00+05:30|0.3000|0.6000": {
+    "last_tap_ts": "2026-09-14T03:52:42.803159+00:00",
+    "inside": true
+  },
+  "OBTAP|VIVIDHA.NS|3 Month|2021-09-30 00:00:00+05:30|0.7000|1.1000": {
+    "inside": false
+  },
+  "OBTAP|VOLTAMP.NS|1 Month|2024-06-30 00:00:00+05:30|9551.0000|12000.0498": {
+    "last_tap_ts": "2026-09-14T03:52:50.883261+00:00",
+    "inside": true
+  },
+  "OBTAP|VOLTAMP.NS|1 Month|2026-01-31 00:00:00+05:30|6666.0000|7958.5000": {
+    "inside": false
+  },
+  "OBTAP|VOLTAMP.NS|3 Month|2016-09-30 00:00:00+05:30|760.5000|842.5000": {
+    "inside": false
+  },
+  "OBTAP|VOLTAMP.NS|3 Month|2018-09-30 00:00:00+05:30|818.9500|998.8000": {
+    "inside": false
+  },
+  "OBTAP|VOLTAMP.NS|3 Month|2022-03-31 00:00:00+05:30|1744.9000|2159.7000": {
+    "inside": false
+  },
+  "OBTAP|VOLTAMP.NS|3 Month|2023-03-31 00:00:00+05:30|2387.5000|3155.0000": {
+    "inside": false
+  },
+  "OBTAP|VRLLOG.NS|1 Month|2023-04-30 00:00:00+05:30|287.5500|333.7250": {
+    "last_tap_ts": "2026-09-14T03:52:54.097420+00:00",
+    "inside": true
+  },
+  "OBTAP|VRLLOG.NS|1 Month|2025-04-30 00:00:00+05:30|227.0000|248.4000": {
+    "inside": false
+  },
+  "OBTAP|VSTIND.NS|1 Month|2026-03-31 00:00:00+05:30|200.0000|232.3000": {
+    "last_tap_ts": "2026-09-14T03:52:56.334403+00:00",
+    "inside": true
+  },
+  "OBTAP|WAAREEINDO.NS|3 Month|2021-09-30 00:00:00+05:30|225.0000|425.0000": {
+    "last_tap_ts": "2026-09-14T03:53:00.878993+00:00",
+    "inside": true
+  },
+  "OBTAP|WAAREEINDO.NS|3 Month|2025-06-30 00:00:00+05:30|165.0700|330.0000": {
+    "last_tap_ts": "2026-09-14T03:53:01.427396+00:00",
+    "inside": true
+  },
+  "OBTAP|WEALTH.NS|1 Month|2024-06-30 00:00:00+05:30|750.0000|877.0000": {
+    "last_tap_ts": "2026-09-14T03:53:07.749308+00:00",
+    "inside": true
+  },
+  "OBTAP|WEALTH.NS|1 Month|2024-09-30 00:00:00+05:30|1181.2500|1372.0000": {
+    "inside": false
+  },
+  "OBTAP|WEALTH.NS|1 Month|2025-05-31 00:00:00+05:30|801.2000|970.0000": {
+    "last_tap_ts": "2026-09-14T03:53:08.297280+00:00",
+    "inside": true
+  },
+  "OBTAP|WEALTH.NS|3 Month|2020-06-30 00:00:00+05:30|54.7500|74.4000": {
+    "inside": false
+  },
+  "OBTAP|WEALTH.NS|3 Month|2023-09-30 00:00:00+05:30|295.0500|360.6000": {
+    "inside": false
+  },
+  "OBTAP|WEIZMANIND.NS|1 Month|2022-09-30 00:00:00+05:30|70.3000|105.0500": {
+    "last_tap_ts": "2026-09-14T03:53:10.520446+00:00",
+    "inside": true
+  },
+  "OBTAP|WEIZMANIND.NS|3 Month|2022-06-30 00:00:00+05:30|42.5500|64.0000": {
+    "inside": false
+  },
+  "OBTAP|WEWIN.NS|1 Month|2023-06-30 00:00:00+05:30|37.0000|42.7000": {
+    "last_tap_ts": "2026-09-14T03:53:17.194856+00:00",
+    "inside": true
+  },
+  "OBTAP|WEWIN.NS|1 Month|2026-03-31 00:00:00+05:30|35.3800|47.9000": {
+    "last_tap_ts": "2026-09-14T03:53:17.753404+00:00",
+    "inside": true
+  },
+  "OBTAP|WEWIN.NS|3 Month|2021-03-31 00:00:00+05:30|11.7167|17.6667": {
+    "inside": false
+  },
+  "OBTAP|WEWIN.NS|3 Month|2023-06-30 00:00:00+05:30|37.0000|49.4000": {
+    "last_tap_ts": "2026-09-14T03:53:18.309937+00:00",
+    "inside": true
   }
 }
