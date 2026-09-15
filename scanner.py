@@ -1,42 +1,18 @@
-import json
 import os
 import time
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
 import yfinance as yf
 
-from config import MIN_DISPLACEMENT_BODY_ATR, HISTORY_PERIOD
+from config import HISTORY_PERIOD, REPORT_TITLE
+from report_generator import make_report_images
 
-STATE_FILE = Path('state.json')
 UNIVERSE_FILE = Path('universe.csv')
-
-
-def now_iso():
-    return datetime.now(timezone.utc).isoformat()
-
-
-def load_state():
-    try:
-        return json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
-    except Exception:
-        return {}
-
-
-def save_state(state):
-    STATE_FILE.write_text(json.dumps(state, indent=2))
-
-
-def send_telegram(text):
-    url = f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage"
-    r = requests.post(
-        url,
-        json={'chat_id': os.environ['TELEGRAM_CHAT_ID'], 'text': text},
-        timeout=20,
-    )
-    r.raise_for_status()
+IST = ZoneInfo('Asia/Kolkata')
 
 
 def normalize(df):
@@ -44,215 +20,147 @@ def normalize(df):
         return None
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
-    if not all(c in df.columns for c in ['Open', 'High', 'Low', 'Close']):
+    need = ['Open','High','Low','Close']
+    if not all(c in df.columns for c in need):
         return None
-    return df[['Open', 'High', 'Low', 'Close']].dropna().copy()
-
-
-def atr(df, n=14):
-    h, l, c = df['High'], df['Low'], df['Close']
-    prev_close = c.shift(1)
-    tr = pd.concat(
-        [h - l, (h - prev_close).abs(), (l - prev_close).abs()], axis=1
-    ).max(axis=1)
-    return tr.rolling(n).mean()
+    return df[need].dropna().copy()
 
 
 def resample(df, rule):
-    return df.resample(rule).agg(
-        {'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last'}
-    ).dropna()
+    return df.resample(rule).agg({'Open':'first','High':'max','Low':'min','Close':'last'}).dropna()
 
 
-def bullish_ob(df):
-    """Bullish OB = last bearish candle before bullish displacement close above its high."""
-    zones = []
-    a = atr(df)
-
+def active_bullish_obs(df):
+    """SharQ Fx OB rule: bearish candle, next bullish candle closes above bearish candle high.
+    Full bearish candle Low-High is used as the OB zone. Return active zones newest first.
+    """
+    zones=[]
     for i in range(1, len(df)):
-        prev = df.iloc[i - 1]
-        cur = df.iloc[i]
+        ob=df.iloc[i-1]
+        disp=df.iloc[i]
+        if ob.Close < ob.Open and disp.Close > disp.Open and disp.Close > ob.High:
+            zones.append({'formed': df.index[i-1], 'low': float(ob.Low), 'high': float(ob.High)})
 
-        # OB candle must be bearish.
-        if prev.Close >= prev.Open:
+    # Remove zones invalidated after formation by a later HTF close below zone low.
+    active=[]
+    for z in zones:
+        later=df[df.index > z['formed']]
+        if not later.empty and (later['Close'] < z['low']).any():
             continue
-
-        body = cur.Close - cur.Open
-        if body <= 0:
-            continue
-
-        # Bullish displacement candle closes above previous candle high.
-        if cur.Close <= prev.High:
-            continue
-
-        # Keep the displacement filter already used by your bot.
-        if pd.notna(a.iloc[i]) and body < MIN_DISPLACEMENT_BODY_ATR * a.iloc[i]:
-            continue
-
-        zones.append(
-            {
-                'formed': str(df.index[i - 1]),
-                'low': float(prev.Low),
-                'high': float(prev.High),
-            }
-        )
-
-    return zones
+        active.append(z)
+    return list(reversed(active))
 
 
 def get_daily(symbol):
     try:
-        return normalize(
-            yf.Ticker(symbol).history(
-                period=HISTORY_PERIOD,
-                interval='1d',
-                auto_adjust=False,
-            )
-        )
+        return normalize(yf.Ticker(symbol).history(period=HISTORY_PERIOD, interval='1d', auto_adjust=False))
     except Exception as e:
-        print(f'DATA ERROR {symbol}: {e}')
+        print('DATA ERROR', symbol, e)
         return None
 
 
-def metadata(symbol):
-    out = {
-        'sector': 'Unknown',
-        'industry': 'Unknown',
-        'cap_category': 'Unknown',
-    }
+def classify_cap(mcap):
+    # Practical report buckets; not official Nifty constituent membership.
+    if not isinstance(mcap, (int,float)) or mcap <= 0:
+        return 'Unclassified'
+    if mcap >= 200e9: return 'Large Cap'
+    if mcap >= 50e9: return 'Mid Cap'
+    if mcap >= 10e9: return 'Small Cap'
+    return 'Micro Cap'
 
+
+def enrich(symbol):
+    sector='—'; industry='—'; mcap=None
     try:
-        info = yf.Ticker(symbol).info or {}
-        out['sector'] = info.get('sector') or 'Unknown'
-        out['industry'] = info.get('industry') or 'Unknown'
-
-        market_cap = info.get('marketCap')
-        if isinstance(market_cap, (int, float)):
-            if market_cap >= 200e9:
-                out['cap_category'] = 'Large Cap'
-            elif market_cap >= 50e9:
-                out['cap_category'] = 'Mid Cap'
-            elif market_cap >= 10e9:
-                out['cap_category'] = 'Small Cap'
-            else:
-                out['cap_category'] = 'Micro Cap'
-    except Exception as e:
-        print(f'METADATA ERROR {symbol}: {e}')
-
-    return out
-
-
-def state_key(symbol, timeframe, zone):
-    # Separate prefix keeps this OB-Tap scanner independent from the old OB/FVG state.
-    return (
-        f"OBTAP|{symbol}|{timeframe}|{zone['formed']}|"
-        f"{zone['low']:.4f}|{zone['high']:.4f}"
-    )
-
-
-def alert_text(row, timeframe, zone, price, meta):
-    cap = row.get('cap_category') or meta['cap_category']
-    sector = row.get('sector') or meta['sector']
-    industry = row.get('industry') or meta['industry']
-    index_name = row.get('index') or '—'
-
-    return '\n'.join(
-        [
-            '🔥 BULLISH ORDER BLOCK TAP',
-            '',
-            f"📌 Stock: {row['name']} ({row['symbol']})",
-            f"🏦 Exchange: {row['exchange']}",
-            f"🏭 Sector: {sector}",
-            f"🧩 Industry: {industry}",
-            f"📊 Market Cap: {cap}",
-            f"📈 Index: {index_name}",
-            '',
-            f"⏱ Timeframe: {timeframe}",
-            '🎯 Setup: Bullish Order Block TAP',
-            f"💰 Current Price: ₹{price:,.2f}",
-            f"🟢 OB Zone: ₹{zone['low']:,.2f} – ₹{zone['high']:,.2f}",
-            f"📅 OB Formed: {zone['formed']}",
-            '📍 Status: OB TAPPED',
-            '',
-            '✅ Only Monthly / 3-Month OB taps are enabled.',
-            '⚠️ Scanner alert only — Not investment advice.',
-        ]
-    )
-
-
-def scan(row, state):
-    symbol = str(row['symbol'])
-    daily = get_daily(symbol)
-
-    if daily is None or len(daily) < 100:
-        return 0
-
-    price = float(daily.Close.iloc[-1])
-    alerts = 0
-    meta = None
-
-    # ONLY 1-Month and 3-Month bullish Order Blocks.
-    for timeframe, rule in [('1 Month', 'ME'), ('3 Month', 'QE-DEC')]:
+        t=yf.Ticker(symbol)
         try:
-            htf = resample(daily, rule).iloc[:-1]  # closed HTF candles only
-        except Exception as e:
-            print('RESAMPLE ERROR', symbol, timeframe, e)
-            continue
+            fi=t.fast_info
+            mcap=getattr(fi,'market_cap',None)
+        except Exception:
+            pass
+        info=t.info or {}
+        sector=info.get('sector') or '—'
+        industry=info.get('industry') or '—'
+        if not mcap:
+            mcap=info.get('marketCap')
+    except Exception as e:
+        print('META ERROR', symbol, e)
+    return sector, industry, classify_cap(mcap)
 
-        if len(htf) < 20:
-            continue
 
-        # No FVG scan. OB only.
-        zones = bullish_ob(htf)[-20:]
+def scan_row(row):
+    symbol=str(row['symbol'])
+    daily=get_daily(symbol)
+    if daily is None or len(daily) < 100:
+        return []
+    price=float(daily.Close.iloc[-1])
+    found=[]
+    for tf, rule in [('1M','ME'),('3M','QE-DEC')]:
+        htf=resample(daily,rule)
+        if len(htf) < 5: continue
+        # Drop current incomplete higher-timeframe candle.
+        htf=htf.iloc[:-1]
+        for z in active_bullish_obs(htf):
+            if z['low'] <= price <= z['high']:
+                found.append((tf,z))
+                break  # newest active in-zone OB only per timeframe
+    if not found:
+        return []
 
-        for zone in zones:
-            k = state_key(symbol, timeframe, zone)
-            rec = state.get(k, {})
-            inside = zone['low'] <= price <= zone['high']
-            was_inside = bool(rec.get('inside', False))
+    sector, industry, cap=enrich(symbol)
+    by_tf={tf:z for tf,z in found}
+    tf_text='1M + 3M' if len(by_tf)==2 else next(iter(by_tf))
+    zone_text=' | '.join(f"{tf} ₹{z['low']:,.2f}–₹{z['high']:,.2f}" for tf,z in by_tf.items())
+    return [{
+        'name': row.get('name') or symbol,
+        'symbol': symbol,
+        'exchange': row.get('exchange') or ('BSE' if symbol.endswith('.BO') else 'NSE'),
+        'sector': sector,
+        'industry': industry,
+        'cap_category': cap,
+        'ob': tf_text,
+        'status': 'IN ZONE',
+        'price': price,
+        'zone': zone_text,
+    }]
 
-            # Alert only on a fresh tap: outside -> inside.
-            # On the first run, a stock already inside the OB is treated as a tap
-            # so the scanner can discover currently tapped stocks immediately.
-            if inside and not was_inside:
-                if meta is None:
-                    meta = metadata(symbol)
-                send_telegram(alert_text(row, timeframe, zone, price, meta))
-                rec['last_tap_ts'] = now_iso()
-                alerts += 1
 
-            # No 24-hour STILL INSIDE repeat alerts.
-            rec['inside'] = inside
-            state[k] = rec
+def send_photo(path, caption):
+    url=f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendPhoto"
+    with open(path,'rb') as f:
+        r=requests.post(url,data={'chat_id':os.environ['TELEGRAM_CHAT_ID'],'caption':caption},files={'photo':f},timeout=60)
+    r.raise_for_status()
 
-    return alerts
+
+def send_text(text):
+    url=f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage"
+    r=requests.post(url,json={'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':text},timeout=30)
+    r.raise_for_status()
 
 
 def main():
-    if not os.environ.get('TELEGRAM_BOT_TOKEN') or not os.environ.get('TELEGRAM_CHAT_ID'):
+    if not os.getenv('TELEGRAM_BOT_TOKEN') or not os.getenv('TELEGRAM_CHAT_ID'):
         raise RuntimeError('Missing Telegram GitHub Secrets')
-
     if not UNIVERSE_FILE.exists():
         raise RuntimeError('universe.csv not found')
+    universe=pd.read_csv(UNIVERSE_FILE).fillna('')
+    print('Universe size:',len(universe))
+    results=[]
+    for n,row in enumerate(universe.to_dict('records'),1):
+        try: results.extend(scan_row(row))
+        except Exception as e: print('SCAN ERROR',row.get('symbol'),e)
+        if n % 100 == 0: print('Scanned',n,'qualified',len(results))
+        time.sleep(0.12)
 
-    state = load_state()
-    universe = pd.read_csv(UNIVERSE_FILE).fillna('')
+    stamp=datetime.now(IST)
+    if not results:
+        send_text(f"🦈 {REPORT_TITLE}\n1M & 3M OB Zone Report\n{stamp:%d %b %Y • %I:%M %p IST}\n\nNo stocks are currently inside qualifying bullish OB zones.")
+        return
+    paths=make_report_images(results, stamp, Path('reports'))
+    for cap,path,count,page,pages in paths:
+        caption=f"🦈 {REPORT_TITLE} • {cap}\n1M & 3M OB ZONE STOCKS • {count} stocks"
+        if pages>1: caption += f" • Page {page}/{pages}"
+        send_photo(path,caption)
+    print('Reports sent:',len(paths),'Qualified stocks:',len(results))
 
-    print(f'Universe size: {len(universe)}')
-    print('Mode: MONTHLY + 3-MONTH BULLISH ORDER BLOCK TAP ONLY')
-
-    total = 0
-    for row in universe.to_dict('records'):
-        try:
-            total += scan(row, state)
-        except Exception as e:
-            print(f"ERROR {row.get('symbol')}: {e}")
-
-        time.sleep(0.25)
-
-    save_state(state)
-    print(f'Finished. OB tap alerts sent: {total}')
-
-
-if __name__ == '__main__':
-    main()
+if __name__=='__main__': main()
