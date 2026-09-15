@@ -1,30 +1,38 @@
-name: OB/FVG Scanner
+name: SharQ Fx OB Reports
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 3-10 * * 1-5"
+    # 10:00 AM IST = 04:30 UTC, Monday-Friday
+    - cron: "30 4 * * 1-5"
+    # 04:00 PM IST = 10:30 UTC, Monday-Friday
+    - cron: "30 10 * * 1-5"
+
 permissions:
   contents: write
+
 jobs:
-  scan:
+  report:
     runs-on: ubuntu-latest
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: '3.11'}
-      - run: pip install -r requirements.txt
-      - name: Refresh NSE universe
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Refresh NSE + BSE universe
         run: python universe_builder.py
-      - name: Run scanner
+      - name: Generate and send SharQ Fx reports
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scanner.py
-      - name: Commit universe and state
+      - name: Commit refreshed universe
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add universe.csv state.json
-          git diff --cached --quiet || git commit -m "Refresh universe and scanner state"
+          git add universe.csv
+          git diff --cached --quiet || git commit -m "Refresh stock universe"
           git push
-          
